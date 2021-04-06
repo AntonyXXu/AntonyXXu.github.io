@@ -74,7 +74,11 @@
 .imgcaption:hover {
   color: #149ddd;
 }
-
+/* Portfolio */
+.portfolio-wrap h4 {
+  color: #173b6c;
+  text-align: center;
+}
 /* Resume */
 .download {
   margin-bottom: 20px;

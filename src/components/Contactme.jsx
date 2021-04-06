@@ -10,7 +10,7 @@ const Contactme = () => {
 
             <div className="row justify-content-md-center" data-aos="fade-in">
               <div className="col-md-auto">
-                <div class="info">
+                <div className="info">
                   <h3>
                     Feel free to send contact me for any inquiries or questions!
                   </h3>

@@ -71,6 +71,7 @@ const Menu = () => {
                 <span className="menu-text">About Me</span>
               </NavLink>
             </li>
+            {/* Currently working on portfolio page */}
             <li>
               <NavLink
                 to="/portfolio"
@@ -78,7 +79,7 @@ const Menu = () => {
                 onClick={handle_click}
               >
                 <icons.Experience className="menu-logo" />
-                <span className="menu-text">Portfolio</span>
+                <span className="menu-text">Portfolio (WIP)</span>
               </NavLink>
             </li>
             <li>

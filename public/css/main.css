@@ -3,4 +3,5 @@
   height: 100vh;
   background: url("../media/bg1.jpg") top center;
   background-size: cover;
+  background-position: right;
 }
