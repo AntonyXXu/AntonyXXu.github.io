@@ -13,10 +13,10 @@ const Menu = () => {
   // Manage Active Menu
   return (
     <div className={!click ? "" : "mobile-nav-active"}>
-      <header id="header" onClick={handle_click}>
+      <header id="header">
         <div className="d-flex flex-column">
           <div className="profile">
-            <Link to="/">
+            <Link to="/" onClick={handle_click}>
               <img
                 src="media/profile.jpg"
                 alt=""
@@ -51,31 +51,52 @@ const Menu = () => {
         <nav className="nav-menu">
           <ul>
             <li>
-              <NavLink to="/" exact={true} activeClassName="active">
+              <NavLink
+                to="/"
+                exact={true}
+                activeClassName="active"
+                onClick={handle_click}
+              >
                 <icons.Home className="menu-logo" />{" "}
                 <span className="menu-text">Home</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeClassName="active">
+              <NavLink
+                to="/about"
+                activeClassName="active"
+                onClick={handle_click}
+              >
                 <icons.About className="menu-logo" />{" "}
                 <span className="menu-text">About Me</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/portfolio" activeClassName="active">
+              <NavLink
+                to="/portfolio"
+                activeClassName="active"
+                onClick={handle_click}
+              >
                 <icons.Experience className="menu-logo" />
-                <span className="menu-text">Experience</span>
+                <span className="menu-text">Portfolio</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/resume" activeClassName="active">
+              <NavLink
+                to="/resume"
+                activeClassName="active"
+                onClick={handle_click}
+              >
                 <icons.Resume className="menu-logo" />{" "}
                 <span className="menu-text">Resume</span>
               </NavLink>
             </li>
             <li>
-              <NavLink to="/contact" activeClassName="active">
+              <NavLink
+                to="/contact"
+                activeClassName="active"
+                onClick={handle_click}
+              >
                 <icons.Email className="menu-logo" />{" "}
                 <span className="menu-text"> Contact</span>
               </NavLink>

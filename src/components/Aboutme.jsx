@@ -21,9 +21,10 @@ const Aboutme = () => {
                     <p className="condense">
                       I'm Antony Xu, a software engineering student. I have
                       three experience in process engineering, operations, and
-                      project management. I excel in collaborative environments,
-                      but also have made significant business improvements as an
-                      individual contributor{" "}
+                      project management. I am a great problem solver, and excel
+                      at working in collaborative environments as well as
+                      demonstrating business results as an individual
+                      contributor{" "}
                     </p>
                   </div>
                 </div>
@@ -44,7 +45,7 @@ const Aboutme = () => {
                 </div>
               </div>
             </div>
-            <br></br>
+
             <div className="container-xl">
               <div className="row">
                 <div
@@ -72,7 +73,7 @@ const Aboutme = () => {
                   data-aos="fade-left"
                 >
                   <div className="info">
-                    <h3>Professional Background</h3>
+                    <h3>Professional Overview</h3>
                     <div className="row">
                       <div className="col-lg">
                         <ul className="condense">

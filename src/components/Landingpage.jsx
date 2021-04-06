@@ -15,7 +15,7 @@ const Landingpage = () => {
         className="d-flex flex-column justify-content-center align-items-center"
       >
         <div className="hero-container">
-          <h1>Antony Xu</h1>
+          <h1>My name is Antony Xu</h1>
           <p>
             <span>
               I'm{" "}
