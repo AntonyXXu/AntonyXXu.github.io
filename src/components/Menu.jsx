@@ -75,7 +75,7 @@ const Menu = () => {
               </Link>
             </li>
             <li>
-              <div className="">&copy; Antony Xu 2020</div>
+              <div className="menu-text">&copy; Antony Xu 2020</div>
             </li>
           </ul>
         </nav>

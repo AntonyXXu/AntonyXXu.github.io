@@ -3,143 +3,169 @@ const Aboutme = () => {
     <div>
       <main id="main">
         <section id="about" className="about">
-          <div className="container">
+          <div className="container-lg">
             <div className="section-title">
               <h2>About Me</h2>
               <p>
-                I'm Antony Xu, a software engineering student. I have background
-                in process engineering, operations, and project management.{" "}
+                I'm Antony Xu, a software engineering student. I have three
+                experience in process engineering, operations, and project
+                management. I excel in collaborative environments, but also have
+                made significant business improvements as an individual
+                contributor{" "}
               </p>
-              <p>I love to hike, ski, swim, and travel! </p>
+              <p>I love to ski, swim, and play racket sports </p>
               <p>
-                I'm a huge foodie, and partially travel fo food... I've
+                I'm a huge foodie, and partially travel for food... I've
                 travelled to China, Japan, Korea, Cuba, Thailand, Singapore, and
-                the States. I'm hoping to go to Spain, Italy, and Peru
+                the States. I'm hoping to go to Spain, Italy, Taiwan, and Peru
                 post-covid though!
               </p>
             </div>
 
-            <div className="row">
-              <div className="col-lg-4" data-aos="fade-right">
+            <div className="row py-2">
+              <div className="col-lg-5" data-aos="fade-right">
                 <img
-                  src="assets/img/profile-img.jpg"
+                  src="https://user-images.githubusercontent.com/77988513/113646564-4a199600-9646-11eb-82e7-7dae1e7fdfb4.gif"
                   className="img-fluid"
-                  alt=""
+                  alt="Travel Website"
                 />
               </div>
               <div
-                className="col-lg-8 pt-4 pt-lg-0 content"
+                className="col-lg-7 pt-4 pt-lg-0 content"
                 data-aos="fade-left"
               >
                 <h3>Professional Background</h3>
-                <p>
-                  I am a student software engineer, with three years experience
-                  in refinery operations, design, and data analysis
-                </p>
                 <div className="row">
-                  <div className="col-lg-6">
+                  <div className="col-lg">
                     <ul>
                       <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Years in Industry</strong> 3 years in
+                        <strong>Education:</strong>
+                        <ul className="content-li">
+                          <li>
+                            Bachelor's of Chemical Engineering, University of
+                            Alberta
+                          </li>
+                          <li>TechCareers Software Developer Program, SAIT</li>
+                        </ul>
                       </li>
                       <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Website:</strong> www.example.com
+                        <strong>Software Experience:</strong>
+                        <ul className="content-li">
+                          <li>
+                            Web development including personal website and a
+                            travel website
+                          </li>
+                          <li>Windows multi-monitor background scroller</li>
+                          <li>
+                            Resume builder from Google Sheets and CSV data
+                          </li>
+                        </ul>
                       </li>
                       <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Phone:</strong> +123 456 7890
-                      </li>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Location:</strong> Alberta, Canada
+                        <strong>
+                          Process Engineering and Data Analysis Experience:
+                        </strong>
+                        <ul className="content-li">
+                          <li>
+                            Experience in analyzing process data while
+                            identifying business improvement opportunities.
+                            Ultimately reduced risks by over $50MM/year
+                          </li>
+                          <li>
+                            Strong leadership experience in leading refinery
+                            plant tests, project commissioning, and spearheading
+                            cost reduction initiatives{" "}
+                          </li>
+                          <li>
+                            Excellent controls background, identifying steam
+                            system controls risks and implementing changes to
+                            eliminate risks valued at $10MM/year
+                          </li>
+                        </ul>
                       </li>
                     </ul>
                   </div>
                 </div>
-                <p>
-                  Officiis eligendi itaque labore et dolorum mollitia officiis
-                  optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                  accusantium dolor incidunt officia tempore. Et eius omnis.
-                  Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                  consectetur qui quia repellendus itaque neque. Aliquid amet
-                  quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-                  culpa magni laudantium dolores.
-                </p>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-4" data-aos="fade-right">
-                <img
-                  src="assets/img/profile-img.jpg"
-                  className="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div
-                className="col-lg-8 pt-4 pt-lg-0 content"
-                data-aos="fade-left"
-              >
-                <h3>Interests</h3>
-                <p className="font-italic">
-                  I have three years experience in refining operations, process
-                  design, and data analysis.
-                </p>
-                <div className="row">
-                  <div className="col-lg-6">
-                    <ul>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Birthday:</strong> 1 May 1995
-                      </li>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Website:</strong> www.example.com
-                      </li>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Phone:</strong> +123 456 7890
-                      </li>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>City:</strong> City : New York, USA
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-lg-6">
-                    <ul>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Age:</strong> 30
-                      </li>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Degree:</strong> Master
-                      </li>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>PhEmailone:</strong> email@example.com
-                      </li>
-                      <li>
-                        <i className="icofont-rounded-right"></i>{" "}
-                        <strong>Freelance:</strong> Available
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <p>
-                  Officiis eligendi itaque labore et dolorum mollitia officiis
-                  optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                  accusantium dolor incidunt officia tempore. Et eius omnis.
-                  Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                  consectetur qui quia repellendus itaque neque. Aliquid amet
-                  quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis
-                  culpa magni laudantium dolores.
-                </p>
               </div>
             </div>
           </div>
+          {/* <div className="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+              <h4>Software and Web Development</h4>
+              <div className="row">
+                <div className="col-lg">
+                  <ul className="exp-list">
+                    <li>
+                      Website development using React, Node, Express with
+                      working database in SQL and MongoDB
+                    </li>
+                    <li>
+                      Windows desktop wallpaper scroller for multi-monitor
+                      screens. Automatically detects vertical/horizontal screen
+                      orientation and size and goes through wallpapers at a
+                      specified interval
+                    </li>
+                    <li>
+                      Resume Builder, extracting csv and google sheet data to
+                      generate resumes readability for various applications
+                    </li>
+                    <li>
+                      Strong understanding of fundamental data structures and
+                      algorithms. Self implemented linked list templates, binary
+                      search trees, heaps, in C++
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        
+          <div className="row">
+            <div className="col-lg-4" data-aos="fade-right">
+              <img
+                src="./media/coker.jpg"
+                className="img-fluid"
+                alt="Coker Image"
+              />
+            </div>
+            <div className="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
+              <h4>Process Engineering and Data Analysis</h4>
+              <div className="row">
+                <div className="col-lg">
+                  <ul className="exp-list">
+                    <li>
+                      Data analysis using Python, Pandas, Numpy to identify
+                      significant business opportunity.
+                      <ul>
+                        <li>
+                          Identified single point of failure valued at
+                          $50MM/year, and provided designs to provide additional
+                          barriers.
+                        </li>
+                        <li>
+                          Analyzed historical utility system shutdowns and
+                          updated controls logic to eliminate various plant
+                          risks valued over $10MM/year
+                        </li>
+                        <li>
+                          Applied linear regression machine learning algorithms
+                          to predict process yields, increasing sales by
+                          $0.1MM/year
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      Lead plant testing to reduce environmental wastes, lead
+                      project commissioning, and supported brand new
+                      cogeneration plant startup
+                    </li>
+                    <li>
+                      Designed, coordinated, and implemented a $1.5MM/year cost
+                      savings initiative
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> */}
         </section>
       </main>
     </div>

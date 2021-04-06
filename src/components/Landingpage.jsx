@@ -14,7 +14,7 @@ const Landingpage = () => {
         id="hero"
         className="d-flex flex-column justify-content-center align-items-center"
       >
-        <div className="hero-container" data-aos="fade-in">
+        <div className="hero-container">
           <h1>Antony Xu</h1>
           <p>
             <span>
