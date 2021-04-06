@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
+import Typed from "react-typed";
 
 const Landingpage = () => {
   const titles = [
-    "Developer",
-    "Process Engineer",
-    "Data Scientist",
-    "Operations Leader",
+    "a Student Software Developer",
+    "a Process Engineer",
+    "a Data Scientist",
+    "an Operations Leader",
   ];
   return (
     <div>
@@ -16,11 +17,15 @@ const Landingpage = () => {
         <div className="hero-container" data-aos="fade-in">
           <h1>Antony Xu</h1>
           <p>
-            I'm an{" "}
-            <span
-              className="typed"
-              data-typed-items="Designer, Developer, Freelancer, Photographer"
-            ></span>
+            <span>
+              I'm{" "}
+              <Typed
+                strings={titles}
+                typeSpeed={50}
+                backSpeed={30}
+                loop={true}
+              />
+            </span>
           </p>
         </div>
       </section>

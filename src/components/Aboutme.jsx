@@ -6,12 +6,16 @@ const Aboutme = () => {
           <div className="container">
             <div className="section-title">
               <h2>About Me</h2>
-              <p>Hey There, I'm Antony Xu, a software engineering student. </p>
               <p>
-                I have background in process engineering, operations, and
-                project management. I love to hike, ski, and travel! I've been
-                to . I'm hoping to go to Spain, Italy, and Peru post-covid
-                though! play
+                I'm Antony Xu, a software engineering student. I have background
+                in process engineering, operations, and project management.{" "}
+              </p>
+              <p>I love to hike, ski, swim, and travel! </p>
+              <p>
+                I'm a huge foodie, and partially travel fo food... I've
+                travelled to China, Japan, Korea, Cuba, Thailand, Singapore, and
+                the States. I'm hoping to go to Spain, Italy, and Peru
+                post-covid though!
               </p>
             </div>
 
