@@ -3,7 +3,7 @@ import Typed from "react-typed";
 
 const Landingpage = () => {
   const titles = [
-    "a Student Software Developer",
+    "a Software Developer",
     "a Process Engineer",
     "a Data Scientist",
     "an Operations Leader",

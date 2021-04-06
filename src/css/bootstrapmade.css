@@ -171,14 +171,14 @@ h6 {
 }
 
 .nav-menu a:hover,
-.nav-menu .active > a,
+.nav-active > a,
 .nav-menu li:hover > a {
   text-decoration: none;
   color: #fff;
 }
 
 .nav-menu a:hover i,
-.nav-menu .active > a i,
+.nav-active > a i,
 .nav-menu li:hover > a i {
   color: #149ddd;
 }
@@ -221,7 +221,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../../media/bg1.jpg") top center;
+  /* background: url("../../media/bg1.jpg") top center; */
   background-size: cover;
 }
 
@@ -286,7 +286,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 50px 0 10px;
   overflow: hidden;
 }
 

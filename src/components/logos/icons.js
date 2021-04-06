@@ -8,8 +8,7 @@ import { ReactComponent as Resume } from "./resume.svg";
 import { ReactComponent as Experience } from "./experience.svg";
 import { ReactComponent as MenuIcon } from "./menu.svg";
 import { ReactComponent as Close } from "./close.svg";
-
-export default {
+const IconList = {
   Linkedin,
   Github,
   Email,
@@ -21,3 +20,5 @@ export default {
   MenuIcon,
   Close,
 };
+
+export default IconList;

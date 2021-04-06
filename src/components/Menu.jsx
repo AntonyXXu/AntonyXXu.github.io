@@ -3,11 +3,14 @@ import icons from "./logos/icons";
 // import { ReactComponent as Linkedin } from "./logos/linkedin.svg";
 // import { ReactComponent as Github } from "./logos/github.svg";
 // import { ReactComponent as Email } from "./logos/email.svg";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Menu = () => {
+  // Manage Mobile Menu
   const [click, set_click] = useState(false);
   const handle_click = () => set_click(!click);
+
+  // Manage Active Menu
   return (
     <div className={!click ? "" : "mobile-nav-active"}>
       <header id="header" onClick={handle_click}>
@@ -25,6 +28,7 @@ const Menu = () => {
               <a
                 href="https://github.com/AntonyXXu"
                 target="_blank"
+                rel="noreferrer"
                 className="github"
               >
                 <icons.Github className="link-logo" />
@@ -32,10 +36,12 @@ const Menu = () => {
               <a
                 href="https://www.linkedin.com/in/antonyxxu/"
                 target="_blank"
+                rel="noreferrer"
                 className="linkedin"
               >
                 <icons.Linkedin className="link-logo" />
               </a>
+
               <a href="mailto:antonyxutong@gmail.com" className="email">
                 <icons.Email className="link-logo" />
               </a>
@@ -44,35 +50,35 @@ const Menu = () => {
         </div>
         <nav className="nav-menu">
           <ul>
-            <li className="active">
-              <Link to="/">
+            <li>
+              <NavLink to="/" exact={true} activeClassName="active">
                 <icons.Home className="menu-logo" />{" "}
                 <span className="menu-text">Home</span>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/about">
+              <NavLink to="/about" activeClassName="active">
                 <icons.About className="menu-logo" />{" "}
                 <span className="menu-text">About Me</span>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/portfolio">
+              <NavLink to="/portfolio" activeClassName="active">
                 <icons.Experience className="menu-logo" />
                 <span className="menu-text">Experience</span>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/resume">
+              <NavLink to="/resume" activeClassName="active">
                 <icons.Resume className="menu-logo" />{" "}
                 <span className="menu-text">Resume</span>
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/contact">
+              <NavLink to="/contact" activeClassName="active">
                 <icons.Email className="menu-logo" />{" "}
                 <span className="menu-text"> Contact</span>
-              </Link>
+              </NavLink>
             </li>
             <li>
               <div className="menu-text">&copy; Antony Xu 2020</div>
