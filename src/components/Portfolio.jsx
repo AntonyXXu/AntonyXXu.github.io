@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const portfolio = [
@@ -53,30 +54,27 @@ const Portfolio = () => {
   ];
 
   const [filter, set_filter] = useState("all");
-  const [projects, set_projects] = useState([]);
-  useEffect(() => {
-    set_projects(portfolio);
-  }, []);
-  useEffect(() => {
-    set_projects([]);
-    const filtered = portfolio.map((p) => ({
-      ...p,
-      filtered: p.category.includes(filter),
+  const [projects, set_projects] = useState(portfolio);
+
+  const data = useCallback(() => {
+    const final = portfolio.map((prev) => ({
+      ...prev,
+      filtered: prev.category.includes(filter),
     }));
-    set_projects(filtered);
+    return final;
   }, [filter]);
+
+  useEffect(() => {
+    set_projects(data);
+  }, [data]);
 
   return (
     <>
       <main id="main">
-        {" "}
         <section id="portfolio" className="portfolio section-bg">
           <div className="container">
             <div className="section-title">
-              <h1>
-                Portfolio (Currently in progress. Look at some photos for
-                now...)
-              </h1>
+              <h1>Portfolio (Currently in progress)</h1>
             </div>
             <p>
               See below for some of my projects and experiences in detail! Feel
@@ -144,10 +142,9 @@ const Portfolio = () => {
                         alt={item.name}
                       />
                       <div className="portfolio-links">
-                        <a
-                          href="portfolio-details.html"
-                          title="More Details"
-                        ></a>
+                        <Link to="portfolio-details.html" title="More Details">
+                          <span>View details</span>
+                        </Link>
                       </div>
                     </div>
                   </div>
