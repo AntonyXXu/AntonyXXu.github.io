@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import icons from "./logos/icons";
+import icons from "../assets/logos/icons";
 // import { ReactComponent as Linkedin } from "./logos/linkedin.svg";
 // import { ReactComponent as Github } from "./logos/github.svg";
 // import { ReactComponent as Email } from "./logos/email.svg";
@@ -18,7 +18,7 @@ const Menu = () => {
           <div className="profile">
             <Link to="/" onClick={handle_click}>
               <img
-                src="media/profile.jpg"
+                src="./assets/profile.jpg"
                 alt=""
                 className="img-fluid rounded-circle"
               ></img>

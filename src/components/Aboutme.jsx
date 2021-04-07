@@ -60,8 +60,8 @@ const Aboutme = () => {
                     <img
                       src={
                         !gif
-                          ? "./media/travel_site.jpg"
-                          : "./media/travel_site.gif"
+                          ? "./assets/travel_site.jpg"
+                          : "./assets/travel_site.gif"
                       }
                       className="img-fluid"
                       alt="Travel Website"
