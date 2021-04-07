@@ -55,7 +55,9 @@ const Aboutme = () => {
                 >
                   <div className="info">
                     <p className="imgcaption text-center">
-                      Click me to see a gif example!
+                      {!gif
+                        ? "Click me to view a gif of the site!"
+                        : "Click me to revert to jpg"}
                     </p>
                     <img
                       src={
