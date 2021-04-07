@@ -28,7 +28,7 @@ const Portfolio = () => {
               free to filter by software related projects, work related
               accomplishments, or leadership accomplishments.
             </p>
-            <div className="row" data-aos="fade-up">
+            <div className="row">
               <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-filters">
                   <li
@@ -70,11 +70,7 @@ const Portfolio = () => {
                 </ul>
               </div>
             </div>
-            <div
-              className="row portfolio-container"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
+            <div className="row portfolio-container">
               {projects.map((item) =>
                 item.filtered === true ? (
                   <div

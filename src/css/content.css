@@ -23,12 +23,12 @@
 .nav-menu .active,
 .nav-menu .menu-item li:hover {
   text-decoration: none;
-  color: #4191db;
+  color: #149ddd;
 }
 
 .menu-logo .active,
 .menu-logo li:hover {
-  color: #4189db;
+  color: #149ddd;
 }
 
 #header {

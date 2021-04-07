@@ -14,10 +14,7 @@ const Aboutme = () => {
             </div>
             <div className="container">
               <div className="row">
-                <div
-                  className="col-lg-6 d-flex align-items-stretch"
-                  data-aos="fade-right"
-                >
+                <div className="col-lg-6 d-flex align-items-stretch">
                   <div className="info">
                     <p className="condense">
                       I'm Antony Xu, a software engineering student. I have
@@ -29,10 +26,7 @@ const Aboutme = () => {
                     </p>
                   </div>
                 </div>
-                <div
-                  className="col-lg-6 d-flex align-items-stretch"
-                  data-aos="fade-right"
-                >
+                <div className="col-lg-6 d-flex align-items-stretch">
                   {" "}
                   <div className="info">
                     <p className="condense">
@@ -51,7 +45,6 @@ const Aboutme = () => {
               <div className="row">
                 <div
                   className="col-lg-6 d-flex align-items-stretch"
-                  data-aos="fade-right"
                   onClick={setgif}
                 >
                   <div className="info">
@@ -71,10 +64,7 @@ const Aboutme = () => {
                     />
                   </div>
                 </div>
-                <div
-                  className="col-lg-6 d-flex align-items-stretch content"
-                  data-aos="fade-left"
-                >
+                <div className="col-lg-6 d-flex align-items-stretch content">
                   <div className="info">
                     <h3>Professional Overview</h3>
                     <div className="row">

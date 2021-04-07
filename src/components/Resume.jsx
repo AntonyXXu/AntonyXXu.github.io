@@ -28,7 +28,7 @@ const Resume = () => {
             </div>
             <DownloadResume />
             <div className="row">
-              <div className="col-lg-12 info" data-aos="fade-up">
+              <div className="col-lg-12 info">
                 <div className="row resume">
                   <div className="col-lg-12 d-flex justify-content-between w-100">
                     <h2>Technical Skills</h2>
@@ -48,7 +48,7 @@ const Resume = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-12 info" data-aos="fade-up">
+              <div className="col-lg-12 info">
                 <div className="row resume">
                   <div className="col-lg-12 d-flex justify-content-between w-100">
                     <h2>Education</h2>
@@ -68,7 +68,7 @@ const Resume = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-12 info" data-aos="fade-up">
+              <div className="col-lg-12 info">
                 <div className="row resume">
                   <div className="col-lg-12 d-flex justify-content-between w-100">
                     <h2>Work Experience</h2>
