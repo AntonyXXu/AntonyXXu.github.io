@@ -42,31 +42,35 @@ const Portfolio = () => {
     {
       key: 7,
       name: "Cooling Tower Initiative",
-      category: ["all", "leadership"],
+      category: ["all", "operations"],
       imglnk: "media/portfolio/coolingtower.jpg",
     },
     {
       key: 8,
       name: "Cross Functional Testing",
-      category: ["all", "leadership"],
+      category: ["all", "operations"],
       imglnk: "media/portfolio/upgrader.jpg",
     },
   ];
 
-  const [filter, set_filter] = useState("all");
-  const [projects, set_projects] = useState(portfolio);
+  const [filter, setFilter] = useState("all");
+  const [projects, setProjects] = useState(portfolio);
 
-  const data = useCallback(() => {
+  //   const data = () => {
+  //     const final = portfolio.map((prev) => ({
+  //       ...prev,
+  //       filtered: prev.category.includes(filter),
+  //     }));
+  //     setProjects(final);
+  //   };
+
+  useEffect(() => {
     const final = portfolio.map((prev) => ({
       ...prev,
       filtered: prev.category.includes(filter),
     }));
-    return final;
+    setProjects(final);
   }, [filter]);
-
-  useEffect(() => {
-    set_projects(data);
-  }, [data]);
 
   return (
     <>
@@ -88,7 +92,7 @@ const Portfolio = () => {
                     className={
                       filter === "all" ? "filter-all active" : "filter-all"
                     }
-                    onClick={() => set_filter("all")}
+                    onClick={() => setFilter("all")}
                   >
                     All
                   </li>
@@ -98,7 +102,7 @@ const Portfolio = () => {
                         ? "filter-all active"
                         : "filter-all"
                     }
-                    onClick={() => set_filter("programming")}
+                    onClick={() => setFilter("programming")}
                   >
                     Programming
                   </li>
@@ -106,19 +110,19 @@ const Portfolio = () => {
                     className={
                       filter === "analysis" ? "filter-all active" : "filter-all"
                     }
-                    onClick={() => set_filter("analysis")}
+                    onClick={() => setFilter("analysis")}
                   >
                     Analysis
                   </li>
                   <li
                     className={
-                      filter === "leadership"
+                      filter === "operations"
                         ? "filter-all active"
                         : "filter-all"
                     }
-                    onClick={() => set_filter("leadership")}
+                    onClick={() => setFilter("operations")}
                   >
-                    Leadership
+                    Operations
                   </li>
                 </ul>
               </div>

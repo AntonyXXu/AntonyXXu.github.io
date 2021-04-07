@@ -18,7 +18,9 @@ const Experience = () => {
             </li>
             <li>
               Utilizing various UCLA and Waterloo resources for data structures
-              &amp; algorithms, operating systems, and processes
+              &amp; algorithms, operating systems, and processes. Currently
+              working on a driving game and a text editor in C++ to implement
+              polymorphism, and tries/stacks respectively
             </li>
           </ul>
         </div>

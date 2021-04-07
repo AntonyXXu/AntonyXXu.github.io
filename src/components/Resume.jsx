@@ -6,13 +6,13 @@ import Experience from "./Resume/Experience";
 
 const Resume = () => {
   //   Hide tabs
-  const [collapse, set_collapse] = useState({
+  const [collapse, setCollapse] = useState({
     skills: true,
     education: true,
     experience: true,
   });
-  const handle_collapse = (id) => {
-    set_collapse((previous) => ({
+  const handleCollapse = (id) => {
+    setCollapse((previous) => ({
       ...previous,
       [id]: !previous[id],
     }));
@@ -34,7 +34,7 @@ const Resume = () => {
                   <div className="float-right">
                     <button
                       className="btn btn-outline-primary "
-                      onClick={() => handle_collapse("skills")}
+                      onClick={() => handleCollapse("skills")}
                     >
                       {collapse["skills"] ? "hide" : "show"}
                     </button>
@@ -54,7 +54,7 @@ const Resume = () => {
                   <div className="float-right">
                     <button
                       className="btn btn-outline-primary "
-                      onClick={() => handle_collapse("education")}
+                      onClick={() => handleCollapse("education")}
                     >
                       {collapse["education"] ? "hide" : "show"}
                     </button>
@@ -74,7 +74,7 @@ const Resume = () => {
                   <div className="float-right">
                     <button
                       className="btn btn-outline-primary "
-                      onClick={() => handle_collapse("experience")}
+                      onClick={() => handleCollapse("experience")}
                     >
                       {collapse["experience"] ? "hide" : "show"}
                     </button>
