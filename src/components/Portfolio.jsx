@@ -1,10 +1,68 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import { Link } from "react-router-dom";
-import portfolio from "../statics/Portfolio.json";
 
 const Portfolio = () => {
+  const portfolio = [
+    {
+      key: 1,
+      name: "Travel Website",
+      category: ["all", "programming"],
+      imglnk: "media/portfolio/travel_site.jpg",
+    },
+    {
+      key: 2,
+      name: "Windows Wallpapers",
+      category: ["all", "programming"],
+      imglnk: "media/portfolio/windows_wallpaper_scroller.jpg",
+    },
+    {
+      key: 3,
+      name: "Resume Builder",
+      category: ["all", "programming"],
+      imglnk: "media/portfolio/resume_builder.jpg",
+    },
+    {
+      key: 4,
+      name: "Process model compilation",
+      category: ["all", "programming"],
+      imglnk: "media/portfolio/coker.jpg",
+    },
+    {
+      key: 5,
+      name: "Production Model Analysis",
+      category: ["all", "analysis"],
+      imglnk: "media/portfolio/production.jpg",
+    },
+    {
+      key: 6,
+      name: "Risk Reduction Analysis",
+      category: ["all", "analysis"],
+      imglnk: "media/portfolio/boiler.jpg",
+    },
+    {
+      key: 7,
+      name: "Cooling Tower Initiative",
+      category: ["all", "operations"],
+      imglnk: "media/portfolio/coolingtower.jpg",
+    },
+    {
+      key: 8,
+      name: "Cross Functional Testing",
+      category: ["all", "operations"],
+      imglnk: "media/portfolio/upgrader.jpg",
+    },
+  ];
+
   const [filter, setFilter] = useState("all");
   const [projects, setProjects] = useState(portfolio);
+
+  //   const data = () => {
+  //     const final = portfolio.map((prev) => ({
+  //       ...prev,
+  //       filtered: prev.category.includes(filter),
+  //     }));
+  //     setProjects(final);
+  //   };
 
   useEffect(() => {
     const final = portfolio.map((prev) => ({
