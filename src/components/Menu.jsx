@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import icons from "../assets/logos/icons";
-// import { ReactComponent as Linkedin } from "./logos/linkedin.svg";
-// import { ReactComponent as Github } from "./logos/github.svg";
-// import { ReactComponent as Email } from "./logos/email.svg";
+import ScrollRestore from "./Menu/ScrollRestore";
 import { Link, NavLink } from "react-router-dom";
 
 const Menu = () => {
@@ -13,6 +11,7 @@ const Menu = () => {
   // Manage Active Menu
   return (
     <div className={!click ? "" : "mobile-nav-active"}>
+      <ScrollRestore />
       <header id="header">
         <div className="d-flex flex-column">
           <div className="profile">
@@ -103,7 +102,7 @@ const Menu = () => {
               </NavLink>
             </li>
             <li>
-              <div className="menu-text">&copy; Antony Xu 2020</div>
+              <div className="copyright">&copy; Antony Xu 2020</div>
             </li>
           </ul>
         </nav>

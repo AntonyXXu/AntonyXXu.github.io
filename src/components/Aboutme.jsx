@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import Wrapper from "./Wrapper";
 
 const Aboutme = () => {
   const [gif, updategif] = useState(false);
   const setgif = () => updategif(!gif);
   return (
-    <>
+    <Wrapper>
       <main id="main">
         <section id="about" className="about">
           <div className="container-xl">
@@ -133,86 +134,9 @@ const Aboutme = () => {
               </div>
             </div>
           </div>
-          {/* <div className="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-              <h4>Software and Web Development</h4>
-              <div className="row">
-                <div className="col-lg">
-                  <ul className="exp-list">
-                    <li>
-                      Website development using React, Node, Express with
-                      working database in SQL and MongoDB
-                    </li>
-                    <li>
-                      Windows desktop wallpaper scroller for multi-monitor
-                      screens. Automatically detects vertical/horizontal screen
-                      orientation and size and goes through wallpapers at a
-                      specified interval
-                    </li>
-                    <li>
-                      Resume Builder, extracting csv and google sheet data to
-                      generate resumes readability for various applications
-                    </li>
-                    <li>
-                      Strong understanding of fundamental data structures and
-                      algorithms. Self implemented linked list templates, binary
-                      search trees, heaps, in C++
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-        
-          <div className="row">
-            <div className="col-lg-4" data-aos="fade-right">
-              <img
-                src="./media/coker.jpg"
-                className="img-fluid"
-                alt="Coker Image"
-              />
-            </div>
-            <div className="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-              <h4>Process Engineering and Data Analysis</h4>
-              <div className="row">
-                <div className="col-lg">
-                  <ul className="exp-list">
-                    <li>
-                      Data analysis using Python, Pandas, Numpy to identify
-                      significant business opportunity.
-                      <ul>
-                        <li>
-                          Identified single point of failure valued at
-                          $50MM/year, and provided designs to provide additional
-                          barriers.
-                        </li>
-                        <li>
-                          Analyzed historical utility system shutdowns and
-                          updated controls logic to eliminate various plant
-                          risks valued over $10MM/year
-                        </li>
-                        <li>
-                          Applied linear regression machine learning algorithms
-                          to predict process yields, increasing sales by
-                          $0.1MM/year
-                        </li>
-                      </ul>
-                    </li>
-                    <li>
-                      Lead plant testing to reduce environmental wastes, lead
-                      project commissioning, and supported brand new
-                      cogeneration plant startup
-                    </li>
-                    <li>
-                      Designed, coordinated, and implemented a $1.5MM/year cost
-                      savings initiative
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </section>
       </main>
-    </>
+    </Wrapper>
   );
 };
 

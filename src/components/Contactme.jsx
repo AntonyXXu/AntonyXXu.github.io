@@ -1,6 +1,7 @@
+import Wrapper from "./Wrapper";
 const Contactme = () => {
   return (
-    <>
+    <Wrapper>
       <main id="main">
         <section id="contact" className="contact">
           <div className="container">
@@ -31,7 +32,7 @@ const Contactme = () => {
           </div>
         </section>
       </main>
-    </>
+    </Wrapper>
   );
 };
 

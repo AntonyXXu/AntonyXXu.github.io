@@ -11,21 +11,28 @@
 .menu-text {
   text-indent: 1vw;
 }
+.copyright {
+  text-indent: 1vw;
+}
 
 .mobile-menu {
-  color: black;
+  color: #173b6c;
   width: 10%;
 }
 
 .nav-menu .active,
-.nav-menu li:hover {
+.nav-menu .menu-item li:hover {
   text-decoration: none;
-  color: #149ddd;
+  color: #4191db;
 }
 
 .menu-logo .active,
 .menu-logo li:hover {
-  color: #149ddd;
+  color: #4189db;
+}
+
+#header {
+  background: rgb(7, 1, 43);
 }
 
 /* Landing Page*/
@@ -104,6 +111,7 @@
 
 .list-group.list-group-horizontal {
   margin-bottom: 10px;
+  flex-wrap: wrap;
 }
 
 .resume h2 {

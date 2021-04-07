@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import portfolio from "../statics/Portfolio.json";
+import Wrapper from "./Wrapper";
 
 const Portfolio = () => {
   const [filter, setFilter] = useState("all");
@@ -15,7 +16,7 @@ const Portfolio = () => {
   }, [filter]);
 
   return (
-    <>
+    <Wrapper>
       <main id="main">
         <section id="portfolio" className="portfolio section-bg">
           <div className="container">
@@ -100,7 +101,7 @@ const Portfolio = () => {
           </div>
         </section>
       </main>
-    </>
+    </Wrapper>
   );
 };
 export default Portfolio;
