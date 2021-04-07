@@ -1,8 +1,8 @@
 {
-  "homepage": "http://AntonyXXu.github.io/",
   "name": "my_site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://antonyxxu.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
