@@ -32,7 +32,7 @@ const Resume = () => {
 
   const experienceHide = useSpring({
     opacity: collapse["experience"] ? 1 : 0,
-    maxHeight: collapse["experience"] ? "1000px" : "0px",
+    maxHeight: collapse["experience"] ? "10000px" : "0px",
     config: { duration: 500 },
   });
 
@@ -48,7 +48,7 @@ const Resume = () => {
             <div className="row">
               <div className="col-lg-12 info">
                 <div className="row resume">
-                  <div className="col-lg-12 d-flex justify-content-between w-100">
+                  <div className="col-lg-12 d-flex justify-content-between ">
                     <h2>Technical Skills</h2>
                     <div className="float-right">
                       <button
@@ -68,7 +68,7 @@ const Resume = () => {
             <div className="row">
               <div className="col-lg-12 info">
                 <div className="row resume">
-                  <div className="col-lg-12 d-flex justify-content-between w-100">
+                  <div className="col-lg-12 d-flex justify-content-between ">
                     <h2>Education</h2>
                     <div className="float-right">
                       <button
@@ -88,7 +88,7 @@ const Resume = () => {
             <div className="row">
               <div className="col-lg-12 info">
                 <div className="row resume">
-                  <div className="col-lg-12 d-flex justify-content-between w-100">
+                  <div className="col-lg-12 d-flex justify-content-between ">
                     <h2>Work Experience</h2>
                     <div className="float-right">
                       <button
