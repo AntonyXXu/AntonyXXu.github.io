@@ -36,7 +36,9 @@
 }
 
 /* Landing Page*/
-
+.hero-container {
+  padding-bottom: 390px;
+}
 /* Section Heading */
 
 .section-title h1 {
