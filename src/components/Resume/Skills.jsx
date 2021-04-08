@@ -4,8 +4,7 @@ const Skills = () => {
       <h4>Languages</h4>
       <ul className="list-group list-group-horizontal">
         <li className="list-group-item skill rounded-pill">Python</li>
-        <li className="list-group-item skill rounded-pill">C++</li>
-        <li className="list-group-item skill rounded-pill">Java</li>
+        <li className="list-group-item skill rounded-pill">C++/C</li>
         <li className="list-group-item skill rounded-pill">Javascript</li>
         <li className="list-group-item skill rounded-pill">HTML</li>
         <li className="list-group-item skill rounded-pill">CSS</li>

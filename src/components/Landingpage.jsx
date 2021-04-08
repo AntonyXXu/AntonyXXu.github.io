@@ -2,14 +2,18 @@ import React from "react";
 import Typed from "react-typed";
 import { animated, useSpring } from "react-spring";
 import Wrapper from "./Wrapper";
+const titles = [
+  "a Software Developer",
+  "a Process Engineer",
+  "a Data Scientist",
+  "an Operations Leader",
+];
 const Landingpage = () => {
-  const titles = [
-    "a Software Developer",
-    "a Process Engineer",
-    "a Data Scientist",
-    "an Operations Leader",
-  ];
-  const fadein = useSpring({ opacity: 1, from: { opacity: 0 } });
+  const fadein = useSpring({
+    opacity: 1,
+    from: { opacity: 0.5 },
+    config: { duration: 500 },
+  });
   return (
     <Wrapper>
       <animated.div style={fadein}>

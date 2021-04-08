@@ -5,8 +5,9 @@ import { Link, NavLink } from "react-router-dom";
 
 const Menu = () => {
   // Manage Mobile Menu
-  const [click, set_click] = useState(false);
-  const handle_click = () => set_click(!click);
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const setFalse = () => setClick(false);
 
   // Manage Active Menu
   return (
@@ -15,7 +16,7 @@ const Menu = () => {
       <header id="header">
         <div className="d-flex flex-column">
           <div className="profile">
-            <Link to="/" onClick={handle_click}>
+            <Link to="/" onClick={handleClick}>
               <img
                 src="./assets/profile.jpg"
                 alt=""
@@ -54,18 +55,14 @@ const Menu = () => {
                 to="/"
                 exact={true}
                 activeClassName="active"
-                onClick={handle_click}
+                onClick={setFalse}
               >
                 <icons.Home className="menu-logo" />{" "}
                 <span className="menu-text">Home</span>
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/about"
-                activeClassName="active"
-                onClick={handle_click}
-              >
+              <NavLink to="/about" activeClassName="active" onClick={setFalse}>
                 <icons.About className="menu-logo" />{" "}
                 <span className="menu-text">About Me</span>
               </NavLink>
@@ -75,18 +72,14 @@ const Menu = () => {
               <NavLink
                 to="/portfolio"
                 activeClassName="active"
-                onClick={handle_click}
+                onClick={setFalse}
               >
                 <icons.Experience className="menu-logo" />
-                <span className="menu-text">Portfolio (WIP)</span>
+                <span className="menu-text">Portfolio</span>
               </NavLink>
             </li>
             <li>
-              <NavLink
-                to="/resume"
-                activeClassName="active"
-                onClick={handle_click}
-              >
+              <NavLink to="/resume" activeClassName="active" onClick={setFalse}>
                 <icons.Resume className="menu-logo" />{" "}
                 <span className="menu-text">Resume</span>
               </NavLink>
@@ -95,7 +88,7 @@ const Menu = () => {
               <NavLink
                 to="/contact"
                 activeClassName="active"
-                onClick={handle_click}
+                onClick={setFalse}
               >
                 <icons.Email className="menu-logo" />{" "}
                 <span className="menu-text"> Contact</span>
@@ -109,7 +102,7 @@ const Menu = () => {
         <button
           type="button"
           className="mobile-nav-toggle d-xl-none"
-          onClick={handle_click}
+          onClick={handleClick}
         >
           {!click ? (
             <icons.MenuIcon className="mobile-menu" />

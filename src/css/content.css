@@ -82,10 +82,31 @@
   color: #149ddd;
 }
 /* Portfolio */
-.portfolio-wrap h4 {
+.portfolio-item h4 {
   color: #173b6c;
   text-align: center;
 }
+.portfolio .portfolio-wrap .portfolio-links {
+  top: 2vw;
+  left: 2vw;
+  right: 2vw;
+}
+
+.portfolio-wrap:hover .portfolio-img {
+  opacity: 0.3;
+  transition: all ease-in-out 0.5s;
+}
+
+.portfolio-wrap:hover h6 {
+  font-size: 120%;
+  opacity: 1;
+  transition: all ease-in-out 0.5s;
+}
+.portfolio-caption h6 {
+  font-size: 120%;
+  opacity: 0;
+}
+
 /* Resume */
 .download {
   margin-bottom: 20px;
@@ -120,7 +141,7 @@
 .resume h2::after {
   content: "";
   display: block;
-  width: 200px;
+  width: 250px;
   height: 3px;
   background: #149ddd;
   bottom: 0;

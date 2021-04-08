@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import portfolio from "../statics/Portfolio.json";
 import Wrapper from "./Wrapper";
 
@@ -21,12 +20,14 @@ const Portfolio = () => {
         <section id="portfolio" className="portfolio section-bg">
           <div className="container">
             <div className="section-title">
-              <h1>Portfolio (Currently in progress)</h1>
+              <h1>Portfolio</h1>
             </div>
             <p>
               See below for some of my projects and experiences in detail! Feel
               free to filter by software related projects, work related
-              accomplishments, or leadership accomplishments.
+              accomplishments, or leadership accomplishments. Hover over the
+              activites to view some details. Software related projects can be
+              found on my github.
             </p>
             <div className="row">
               <div className="col-lg-12 d-flex justify-content-center">
@@ -77,17 +78,15 @@ const Portfolio = () => {
                     key={item.key}
                     className="col-lg-4 col-md-6 portfolio-item filter-analysis"
                   >
+                    <h4 key={item.name}>{item.name}</h4>
                     <div className="portfolio-wrap">
-                      <h4 key={item.name}>{item.name}</h4>
                       <img
                         src={item.imglnk}
-                        className="img-fluid"
+                        className="img-fluid portfolio-img"
                         alt={item.name}
                       />
-                      <div className="portfolio-links">
-                        <Link to="portfolio-details.html" title="More Details">
-                          <span>View details</span>
-                        </Link>
+                      <div className="portfolio-links portfolio-caption">
+                        <h6>{item.description}</h6>
                       </div>
                     </div>
                   </div>

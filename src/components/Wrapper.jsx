@@ -1,5 +1,5 @@
 import React from "react";
-
+// Wrapper primarily to help with animation, position-absolute to avoid cascading elements
 const Wrapper = ({ children }) => {
   return (
     <>

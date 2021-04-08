@@ -1,5 +1,5 @@
 const DownloadResume = () => {
-  const download_resume = () => {
+  const downloadResume = () => {
     window.location.href =
       "https://github.com/AntonyXXu/Windows_Wallpaper_Slideshow/files/6266052/AntonyXuResume.pdf";
   };
@@ -10,7 +10,7 @@ const DownloadResume = () => {
           <div className="text-center download">
             <button
               className="btn btn-outline-primary btn-lg "
-              onClick={download_resume}
+              onClick={downloadResume}
             >
               Click to download my resume
             </button>

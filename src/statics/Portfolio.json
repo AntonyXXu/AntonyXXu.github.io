@@ -3,48 +3,56 @@
     "key": 1,
     "name": "Travel Website",
     "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/travel_site.jpg"
+    "imglnk": "./assets/portfolio/travel_site.jpg",
+    "description": "Applied NodeJS, Express with MongoDB and Pug templates to create a travel website. Functionalities include registration/login, admin features to create/delete new packages, filter travel packages, and gather data on user purchases and popular packages"
   },
   {
     "key": 2,
     "name": "Windows Wallpapers",
     "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/windowswallpaper.jpg"
+    "imglnk": "./assets/portfolio/windowswallpaper.jpg",
+    "description": "Windows does not natively support wallpaper slideshows for multiple monitors. I created a python app to detect number of monitors, screen resolution, and orientation.  The application sorts landscape/portrait photos and generates a new background photo based on a timer.  The application automatically detects changes to monitors, screen resolution, or photos"
   },
   {
     "key": 3,
-    "name": "Resume Builder",
-    "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/resume_builder.jpg"
+    "name": "Cross Functional Testing",
+    "category": ["all", "operations"],
+    "imglnk": "./assets/portfolio/upgrader.jpg",
+    "description": "After identifying various plant vulnerabilities from trending data and performing a risk analysis, I lead a cross-refinery team to test historical limits on high risk equipment. Ultimately, through the collaborative efforts of the engineering team, we were able to gather valuable data and improve boiler burner utilization by ~20%"
   },
   {
     "key": 4,
     "name": "Process model compilation",
     "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/coker.jpg"
+    "imglnk": "./assets/portfolio/coker.jpg",
+    "description": "Historical process model results were not in accessible files, making analysis difficult. I created a tool that parsed the historical results into a common database, and analyzed the results. After validating with live plant data, I identified process modification opportunities that improved yields and gas oil sales by $100k/y"
   },
   {
     "key": 5,
     "name": "Production Model Analysis",
     "category": ["all", "analysis"],
-    "imglnk": "./assets/portfolio/production.jpg"
+    "imglnk": "./assets/portfolio/production.jpg",
+    "description": "I was responsible for model validation and analysis for mine operations. Following debugging and verification using Python, I built a tool to analyze millions of data points, ultimately identifying a single point of failure in the proposed project that would have costed over $50MM/year."
   },
   {
     "key": 6,
-    "name": "Risk Reduction Analysis",
+    "name": "Controls Vulnerability",
     "category": ["all", "analysis"],
-    "imglnk": "./assets/portfolio/boiler.jpg"
+    "imglnk": "./assets/portfolio/boiler.jpg",
+    "description": "Refinery utilities systems were over 50years old, and had various risks. I analyzed all historical data of shutdown incidents and found various opportunities in controls logic. I developed new controls logic and additional monitoring tools to fully eliminate various trip risks and logic, reducing annual quantified risk by $10MM/year"
   },
   {
     "key": 7,
     "name": "Cooling Tower Initiative",
     "category": ["all", "operations"],
-    "imglnk": "./assets/portfolio/coolingtower.jpg"
+    "imglnk": "./assets/portfolio/coolingtower.jpg",
+    "description": "After analyzing temperature trends with cooling water temperatures, I noticed it was possible to perform maintenance without rentals during Winter months (never done before). After consulting specialists and confirming its viability, I interfaced and lead a cross-functional team to develop and implement a bypass system to capture $1.5MM reduction in operating expenses"
   },
   {
     "key": 8,
-    "name": "Cross Functional Testing",
-    "category": ["all", "operations"],
-    "imglnk": "./assets/portfolio/upgrader.jpg"
+    "name": "Resume Builder",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/resume_builder.jpg",
+    "description": "Created a basic resume builder for a friend looking for applications. The program pulls data from a csv or Google Sheets document, and parses all of the data into a formatted Google Docs file."
   }
 ]

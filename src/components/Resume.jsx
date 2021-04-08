@@ -4,6 +4,8 @@ import Skills from "./Resume/Skills";
 import Education from "./Resume/Education";
 import Experience from "./Resume/Experience";
 import Wrapper from "./Wrapper";
+import { animated, useSpring } from "react-spring";
+
 const Resume = () => {
   //   Hide tabs
   const [collapse, setCollapse] = useState({
@@ -17,6 +19,22 @@ const Resume = () => {
       [id]: !previous[id],
     }));
   };
+  // useSpring for hiding tabs
+  const skillsHide = useSpring({
+    opacity: collapse["skills"] ? 1 : 0,
+    maxHeight: collapse["skills"] ? "1000px" : "0px",
+  });
+
+  const educationHide = useSpring({
+    opacity: collapse["education"] ? 1 : 0,
+    maxHeight: collapse["education"] ? "1000px" : "0px",
+  });
+
+  const experienceHide = useSpring({
+    opacity: collapse["experience"] ? 1 : 0,
+    maxHeight: collapse["experience"] ? "1000px" : "0px",
+    config: { duration: 500 },
+  });
 
   return (
     <Wrapper>
@@ -41,9 +59,9 @@ const Resume = () => {
                       </button>
                     </div>
                   </div>
-                  <div className="col-lg-12">
-                    {collapse["skills"] ? <Skills /> : null}
-                  </div>
+                  <animated.div className="col-lg-12" style={skillsHide}>
+                    <Skills />
+                  </animated.div>
                 </div>
               </div>
             </div>
@@ -61,9 +79,9 @@ const Resume = () => {
                       </button>
                     </div>
                   </div>
-                  <div className="col-lg-12">
-                    {collapse["education"] ? <Education /> : null}
-                  </div>
+                  <animated.div className="col-lg-12" style={educationHide}>
+                    <Education />
+                  </animated.div>
                 </div>
               </div>
             </div>
@@ -81,9 +99,9 @@ const Resume = () => {
                       </button>
                     </div>
                   </div>
-                  <div className="col-lg-12">
-                    {collapse["experience"] ? <Experience /> : null}
-                  </div>
+                  <animated.div className="col-lg-12" style={experienceHide}>
+                    <Experience />
+                  </animated.div>
                 </div>
               </div>
             </div>
