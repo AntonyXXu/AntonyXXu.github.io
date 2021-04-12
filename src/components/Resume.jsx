@@ -23,16 +23,19 @@ const Resume = () => {
   const skillsHide = useSpring({
     opacity: collapse["skills"] ? 1 : 0,
     maxHeight: collapse["skills"] ? "1000px" : "0px",
+    scaleY: collapse["skills"] ? "1" : "0.00001",
   });
 
   const educationHide = useSpring({
     opacity: collapse["education"] ? 1 : 0,
     maxHeight: collapse["education"] ? "1000px" : "0px",
+    scaleY: collapse["education"] ? "1" : "0.00001",
   });
 
   const experienceHide = useSpring({
     opacity: collapse["experience"] ? 1 : 0,
     maxHeight: collapse["experience"] ? "10000px" : "0px",
+    scaleY: collapse["experience"] ? "1" : "0.00001",
     config: { duration: 500 },
   });
 
@@ -59,7 +62,7 @@ const Resume = () => {
                       </button>
                     </div>
                   </div>
-                  <animated.div className="col-lg-12" style={skillsHide}>
+                  <animated.div className="col-lg-12 exp" style={skillsHide}>
                     <Skills />
                   </animated.div>
                 </div>
@@ -79,7 +82,7 @@ const Resume = () => {
                       </button>
                     </div>
                   </div>
-                  <animated.div className="col-lg-12" style={educationHide}>
+                  <animated.div className="col-lg-12 exp" style={educationHide}>
                     <Education />
                   </animated.div>
                 </div>
@@ -99,7 +102,10 @@ const Resume = () => {
                       </button>
                     </div>
                   </div>
-                  <animated.div className="col-lg-12" style={experienceHide}>
+                  <animated.div
+                    className="col-lg-12 exp"
+                    style={experienceHide}
+                  >
                     <Experience />
                   </animated.div>
                 </div>

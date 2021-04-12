@@ -72,26 +72,28 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="row portfolio-container">
-              {projects.map((item) =>
-                item.filtered === true ? (
-                  <div
-                    key={item.key}
-                    className="col-lg-4 col-md-6 portfolio-item filter-analysis"
-                  >
-                    <h4 key={item.name}>{item.name}</h4>
-                    <div className="portfolio-wrap">
-                      <img
-                        src={item.imglnk}
-                        className="img-fluid portfolio-img"
-                        alt={item.name}
-                      />
-                      <div className="portfolio-links portfolio-caption">
-                        <h6>{item.description}</h6>
-                      </div>
+              {projects.map((item) => (
+                <div
+                  key={item.key}
+                  className={
+                    item.filtered
+                      ? "col-lg-4 col-md-6 portfolio-item filter-analysis visible"
+                      : "col-lg-4 col-md-6 portfolio-item filter-analysis invisible"
+                  }
+                >
+                  <h4 key={item.name}>{item.name}</h4>
+                  <div className="portfolio-wrap">
+                    <img
+                      src={item.imglnk}
+                      className="img-fluid portfolio-img"
+                      alt={item.name}
+                    />
+                    <div className="portfolio-links portfolio-caption">
+                      <h6>{item.description}</h6>
                     </div>
                   </div>
-                ) : null
-              )}{" "}
+                </div>
+              ))}
             </div>
           </div>
         </section>

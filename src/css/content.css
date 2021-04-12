@@ -32,7 +32,7 @@
 }
 
 #header {
-  background: rgb(7, 1, 43);
+  background: #040b14;
 }
 
 /* Landing Page*/
@@ -83,7 +83,29 @@
 .imgcaption:hover {
   color: #149ddd;
 }
+@media (max-width: 991px) {
+  .info {
+    padding: 1vw 3vw 1vw;
+  }
+}
 /* Portfolio */
+.visible {
+  /* transition: opacity 1s, max-height 1s, max-width 1s, scale 1s; */
+  opacity: 1;
+  max-height: 1000px;
+  max-width: 1000px;
+  padding: 0px 15px;
+  scale: 1;
+}
+.invisible {
+  /* transition: opacity 1s, max-height 1s, max-width 1s, scale 1s; */
+  opacity: 1;
+  max-height: 0px;
+  max-width: 0px;
+  padding: 0px 0px;
+  scale: 0;
+}
+
 .portfolio-item h4 {
   color: #173b6c;
   text-align: center;
@@ -149,5 +171,9 @@
   bottom: 0;
   left: 0;
   align-self: center;
+}
+
+.exp {
+  transform-origin: top;
 }
 /* Contact */

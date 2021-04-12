@@ -15,24 +15,25 @@
   },
   {
     "key": 3,
-    "name": "Cross Functional Testing",
-    "category": ["all", "operations"],
-    "imglnk": "./assets/portfolio/upgrader.jpg",
-    "description": "After identifying various plant vulnerabilities from trending data and performing a risk analysis, I lead a cross-refinery team to test historical limits on high risk equipment. Ultimately, through the collaborative efforts of the engineering team, we were able to gather valuable data and improve boiler burner utilization by ~20%"
+    "name": "Resume Builder",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/resume_builder.jpg",
+    "description": "Created a basic resume builder for a friend looking for applications. The program pulls data from a csv or Google Sheets document, and parses all of the data into a formatted Google Docs file."
   },
   {
     "key": 4,
-    "name": "Process model compilation",
+    "name": "Process Model Compilation",
     "category": ["all", "programming"],
     "imglnk": "./assets/portfolio/coker.jpg",
     "description": "Historical process model results were not in accessible files, making analysis difficult. I created a tool that parsed the historical results into a common database, and analyzed the results. After validating with live plant data, I identified process modification opportunities that improved yields and gas oil sales by $100k/y"
   },
   {
     "key": 5,
-    "name": "Production Model Analysis",
-    "category": ["all", "analysis"],
-    "imglnk": "./assets/portfolio/production.jpg",
-    "description": "I was responsible for model validation and analysis for mine operations. Following debugging and verification using Python, I built a tool to analyze millions of data points, ultimately identifying a single point of failure in the proposed project that would have costed over $50MM/year."
+
+    "name": "Cross Functional Testing",
+    "category": ["all", "operations"],
+    "imglnk": "./assets/portfolio/upgrader.jpg",
+    "description": "After identifying various plant vulnerabilities from trending data and performing a risk analysis, I lead a cross-refinery team to test historical limits on high risk equipment. Ultimately, through the collaborative efforts of the engineering team, we were able to gather valuable data and improve boiler burner utilization by ~20%"
   },
   {
     "key": 6,
@@ -43,16 +44,16 @@
   },
   {
     "key": 7,
+    "name": "Production Model Analysis",
+    "category": ["all", "analysis"],
+    "imglnk": "./assets/portfolio/production.jpg",
+    "description": "I was responsible for model validation and analysis for mine operations. Following debugging and verification using Python, I built a tool to analyze millions of data points, ultimately identifying a single point of failure in the proposed project that would have costed over $50MM/year."
+  },
+  {
+    "key": 8,
     "name": "Cooling Tower Initiative",
     "category": ["all", "operations"],
     "imglnk": "./assets/portfolio/coolingtower.jpg",
     "description": "After analyzing temperature trends with cooling water temperatures, I noticed it was possible to perform maintenance without rentals during Winter months (never done before). After consulting specialists and confirming its viability, I interfaced and lead a cross-functional team to develop and implement a bypass system to capture $1.5MM reduction in operating expenses"
-  },
-  {
-    "key": 8,
-    "name": "Resume Builder",
-    "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/resume_builder.jpg",
-    "description": "Created a basic resume builder for a friend looking for applications. The program pulls data from a csv or Google Sheets document, and parses all of the data into a formatted Google Docs file."
   }
 ]

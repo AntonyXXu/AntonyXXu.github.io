@@ -10,7 +10,7 @@ const Aboutme = () => {
         <section id="about" className="about">
           <div className="container-xl">
             <div className="section-title">
-              <h1>About Me</h1>{" "}
+              <h1>About Me</h1>
             </div>
             <div className="container">
               <div className="row">
@@ -18,16 +18,15 @@ const Aboutme = () => {
                   <div className="info">
                     <p className="condense">
                       I'm Antony Xu, a software engineering student. I have
-                      three experience in process engineering, operations, and
-                      project management. I am a great problem solver, and excel
-                      at working in collaborative environments as well as
+                      three years experience in process engineering, operations,
+                      and project management. I am a great problem solver, and
+                      excel at working in collaborative environments as well as
                       demonstrating business results as an individual
-                      contributor{" "}
+                      contributor
                     </p>
                   </div>
                 </div>
                 <div className="col-lg-6 d-flex align-items-stretch">
-                  {" "}
                   <div className="info">
                     <p className="condense">
                       I love to ski, swim, and play racket sports. I'm a huge
@@ -41,7 +40,7 @@ const Aboutme = () => {
               </div>
             </div>
 
-            <div className="container-xl">
+            <div className="container">
               <div className="row">
                 <div
                   className="col-lg-6 d-flex align-items-stretch"
@@ -108,7 +107,7 @@ const Aboutme = () => {
                               <li>
                                 Strong leadership experience in leading refinery
                                 plant tests, project commissioning, and
-                                spearheading cost reduction initiatives{" "}
+                                spearheading cost reduction initiatives
                               </li>
                               <li>
                                 Excellent controls background, implementing
