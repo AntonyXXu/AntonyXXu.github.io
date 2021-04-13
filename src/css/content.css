@@ -111,9 +111,16 @@
   text-align: center;
 }
 .portfolio .portfolio-wrap .portfolio-links {
-  top: 2vw;
+  top: 1vw;
   left: 2vw;
   right: 2vw;
+}
+@media (max-width: 769px) {
+  .portfolio .portfolio-wrap .portfolio-links {
+    top: 3vw;
+    left: 3vw;
+    right: 3vw;
+  }
 }
 
 .portfolio-wrap:hover .portfolio-img {

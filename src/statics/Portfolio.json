@@ -38,7 +38,7 @@
   {
     "key": 6,
     "name": "Cross Functional Testing",
-    "category": ["all", "operations"],
+    "category": ["all", "leadership"],
     "imglnk": "./assets/portfolio/upgrader.jpg",
     "description": "After identifying various plant vulnerabilities from trending data and performing a risk analysis, I lead a cross-refinery team to test historical limits on high risk equipment. Ultimately, through the collaborative efforts of the engineering team, we were able to gather valuable data and improve boiler burner utilization by ~20%"
   },
@@ -59,7 +59,7 @@
   {
     "key": 9,
     "name": "Cooling Tower Initiative",
-    "category": ["all", "operations"],
+    "category": ["all", "leadership"],
     "imglnk": "./assets/portfolio/coolingtower.jpg",
     "description": "After analyzing temperature trends with cooling water temperatures, I noticed it was possible to perform maintenance without rentals during Winter months (never done before). After consulting specialists and confirming its viability, I interfaced and lead a cross-functional team to develop and implement a bypass system to capture $1.5MM reduction in operating expenses"
   }

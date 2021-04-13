@@ -60,13 +60,13 @@ const Portfolio = () => {
                   </li>
                   <li
                     className={
-                      filter === "operations"
+                      filter === "leadership"
                         ? "filter-all active"
                         : "filter-all"
                     }
-                    onClick={() => setFilter("operations")}
+                    onClick={() => setFilter("leadership")}
                   >
-                    Operations
+                    Leadership
                   </li>
                 </ul>
               </div>
