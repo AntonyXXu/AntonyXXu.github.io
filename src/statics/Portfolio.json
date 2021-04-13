@@ -11,14 +11,14 @@
     "name": "Windows Wallpapers",
     "category": ["all", "programming"],
     "imglnk": "./assets/portfolio/windowswallpaper.jpg",
-    "description": "Windows does not natively support wallpaper slideshows for multiple monitors. I created a python app to detect number of monitors, screen resolution, and orientation.  The application sorts landscape/portrait photos and generates a new background photo based on a timer.  The application automatically detects changes to monitors, screen resolution, or photos"
+    "description": "Windows does not natively support wallpaper slideshows for multiple monitors. I created a python app to automatically detect number of monitors, screen resolution, and orientation both on initialization and while running.  The application sorts landscape/portrait photos and generates a new background photo based on a timer."
   },
   {
     "key": 3,
-    "name": "Resume Builder",
+    "name": "GhostRacer Game",
     "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/resume_builder.jpg",
-    "description": "Created a basic resume builder for a friend looking for applications. The program pulls data from a csv or Google Sheets document, and parses all of the data into a formatted Google Docs file."
+    "imglnk": "./assets/portfolio/ghostracer.jpg",
+    "description": "Created a game to apply Object Oriented Programming in C++, using two classes in Actors and GameWorld to implement a driving game. All Actors activities are done through passing a virtual function to the GameWorld, while GameWorld keeps track of all existing Actors and orchestrates all gameplay."
   },
   {
     "key": 4,
@@ -29,28 +29,35 @@
   },
   {
     "key": 5,
+    "name": "Resume Builder",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/resume_builder.jpg",
+    "description": "Created a basic resume builder for a friend looking for applications. The program pulls data from a csv or Google Sheets document, and parses all of the data into a formatted Google Docs file."
+  },
 
+  {
+    "key": 6,
     "name": "Cross Functional Testing",
     "category": ["all", "operations"],
     "imglnk": "./assets/portfolio/upgrader.jpg",
     "description": "After identifying various plant vulnerabilities from trending data and performing a risk analysis, I lead a cross-refinery team to test historical limits on high risk equipment. Ultimately, through the collaborative efforts of the engineering team, we were able to gather valuable data and improve boiler burner utilization by ~20%"
   },
   {
-    "key": 6,
+    "key": 7,
     "name": "Controls Vulnerability",
     "category": ["all", "analysis"],
     "imglnk": "./assets/portfolio/boiler.jpg",
     "description": "Refinery utilities systems were over 50years old, and had various risks. I analyzed all historical data of shutdown incidents and found various opportunities in controls logic. I developed new controls logic and additional monitoring tools to fully eliminate various trip risks and logic, reducing annual quantified risk by $10MM/year"
   },
   {
-    "key": 7,
+    "key": 8,
     "name": "Production Model Analysis",
     "category": ["all", "analysis"],
     "imglnk": "./assets/portfolio/production.jpg",
     "description": "I was responsible for model validation and analysis for mine operations. Following debugging and verification using Python, I built a tool to analyze millions of data points, ultimately identifying a single point of failure in the proposed project that would have costed over $50MM/year."
   },
   {
-    "key": 8,
+    "key": 9,
     "name": "Cooling Tower Initiative",
     "category": ["all", "operations"],
     "imglnk": "./assets/portfolio/coolingtower.jpg",
