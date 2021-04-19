@@ -43,7 +43,7 @@ const Aboutme = () => {
             <div className="container">
               <div className="row">
                 <div
-                  className="col-lg-6 d-flex align-items-stretch"
+                  className="col-lg-6 d-flex align-items-stretch condense"
                   onClick={setgif}
                 >
                   <div className="info">

@@ -65,7 +65,7 @@
 
 /* About me*/
 .info {
-  padding: 1vw 1vw 0;
+  padding: 1vw 1vw 1vw;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -73,6 +73,7 @@
 }
 .condense {
   margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .content-li {
@@ -85,7 +86,8 @@
 }
 @media (max-width: 991px) {
   .info {
-    padding: 1vw 3vw 1vw;
+    padding: 2vw 5vw 2vw;
+    text-align: justify;
   }
 }
 /* Portfolio */
