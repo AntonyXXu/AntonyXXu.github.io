@@ -15,6 +15,10 @@ const Portfolio = () => {
     }));
     setProjects(final);
   }, [filter]);
+  const filterPortfolio = (filter) => {
+    setFilter(filter);
+    setModal(false);
+  };
 
   //Show Modal of portfolio details
   const [showModal, setModal] = useState(false);
@@ -45,7 +49,9 @@ const Portfolio = () => {
                     className={
                       filter === "all" ? "filter-all active" : "filter-all"
                     }
-                    onClick={() => setFilter("all")}
+                    onClick={() => {
+                      filterPortfolio("all");
+                    }}
                   >
                     All
                   </li>
@@ -55,7 +61,7 @@ const Portfolio = () => {
                         ? "filter-all active"
                         : "filter-all"
                     }
-                    onClick={() => setFilter("programming")}
+                    onClick={() => filterPortfolio("programming")}
                   >
                     Programming
                   </li>
@@ -63,7 +69,9 @@ const Portfolio = () => {
                     className={
                       filter === "analysis" ? "filter-all active" : "filter-all"
                     }
-                    onClick={() => setFilter("analysis")}
+                    onClick={() => {
+                      filterPortfolio("analysis");
+                    }}
                   >
                     Analysis
                   </li>
@@ -73,7 +81,9 @@ const Portfolio = () => {
                         ? "filter-all active"
                         : "filter-all"
                     }
-                    onClick={() => setFilter("leadership")}
+                    onClick={() => {
+                      filterPortfolio("leadership");
+                    }}
                   >
                     Leadership
                   </li>

@@ -4,7 +4,7 @@ import { useSpring, animated } from "react-spring";
 const Modal = ({ showModal, toggleModal }) => {
   const enterScreen = useSpring({
     opacity: showModal ? 1 : 0,
-    transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
+    // transform: showModal ? `translateY(100%)` : `translateY(-100%)`,
     config: {
       duration: 350,
     },
@@ -16,8 +16,9 @@ const Modal = ({ showModal, toggleModal }) => {
     }
   }, [showModal]);
 
+  if (!showModal) return null;
   return (
-    <div className="modal-wrapper modal-dialog modal-xl">
+    <div className="modal-wrapper modal-xl">
       <animated.div className="modal-info" style={enterScreen}>
         <div className="modal-content">
           <div className="modal-header">
