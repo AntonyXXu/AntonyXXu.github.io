@@ -17,11 +17,8 @@ const Modal = ({ showModal, toggleModal }) => {
   }, [showModal]);
 
   return (
-    <animated.div
-      className="modal-wrapper modal-dialog modal-xl"
-      style={enterScreen}
-    >
-      <div className="modal-info">
+    <div className="modal-wrapper modal-dialog modal-xl">
+      <animated.div className="modal-info" style={enterScreen}>
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">Details About ____</h5>
@@ -55,8 +52,8 @@ const Modal = ({ showModal, toggleModal }) => {
             </button>
           </div>
         </div>
-      </div>
-    </animated.div>
+      </animated.div>
+    </div>
   );
 };
 
