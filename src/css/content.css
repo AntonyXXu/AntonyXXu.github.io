@@ -140,6 +140,20 @@
   opacity: 0;
 }
 
+/* Modals */
+.modal-wrapper {
+  position: absolute; /* Stay in place */
+  overflow: visible;
+  z-index: 2;
+  align-self: center;
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+}
+
 /* Resume */
 .download {
   margin-bottom: 20px;
