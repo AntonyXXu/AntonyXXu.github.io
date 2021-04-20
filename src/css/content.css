@@ -142,16 +142,28 @@
 
 /* Modals */
 .modal-wrapper {
-  position: absolute; /* Stay in place */
+  position: absolute;
+  overflow: visible;
+  z-index: 10;
+  align-self: center;
+  width: 100%;
+  height: 0px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: -20%;
+}
+.modal-info {
+  position: relative;
   overflow: visible;
   z-index: 2;
   align-self: center;
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-bottom: -20%;
 }
 
 /* Resume */

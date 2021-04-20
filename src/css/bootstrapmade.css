@@ -45,7 +45,7 @@ h6 {
   background: #149ddd;
   color: #fff;
   transition: display 0.5s ease-in-out;
-  z-index: 99999;
+  z-index: 11;
 }
 
 .back-to-top i {

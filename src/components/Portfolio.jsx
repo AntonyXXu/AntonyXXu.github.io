@@ -27,11 +27,6 @@ const Portfolio = () => {
       <main id="main">
         <section id="portfolio" className="portfolio section-bg">
           <div className="container">
-            <Modal
-              showModal={showModal}
-              setModal={setModal}
-              toggleModal={toggleModal}
-            />
             <div className="section-title">
               <h1>Portfolio</h1>
             </div>
@@ -42,7 +37,11 @@ const Portfolio = () => {
               activites to view some details. Software related projects can be
               found on my github.
             </p>
-
+            <Modal
+              showModal={showModal}
+              setModal={setModal}
+              toggleModal={toggleModal}
+            />
             <div className="row">
               <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-filters">
@@ -85,6 +84,7 @@ const Portfolio = () => {
                 </ul>
               </div>
             </div>
+
             <div className="row portfolio-container">
               {projects.map((item) => (
                 <div

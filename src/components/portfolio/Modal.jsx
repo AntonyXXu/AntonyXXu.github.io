@@ -6,20 +6,22 @@ const Modal = ({ showModal, toggleModal }) => {
     opacity: showModal ? 1 : 0,
     transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
     config: {
-      duration: 250,
+      duration: 350,
     },
   });
 
-  //   if (!showModal) {
-  //     return null;
-  //   }
+  useEffect(() => {
+    if (showModal) {
+      window.scrollTo(0, 0);
+    }
+  }, [showModal]);
 
   return (
     <animated.div
-      className="modal-wrapper modal-dialog modal-lg"
+      className="modal-wrapper modal-dialog modal-xl"
       style={enterScreen}
     >
-      <div>
+      <div className="modal-info">
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title">Details About ____</h5>
@@ -34,7 +36,13 @@ const Modal = ({ showModal, toggleModal }) => {
             </button>
           </div>
           <div className="modal-body">
-            <p>Modal body text goes here.</p>
+            <p>
+              Modal body text goes here. asdf asdf sadf asdf asdf asdf sadf
+              asdfa sdf Modal body text goes here. asdf asdf sadf asdf asdf asdf
+              sadf asdfa sdf Modal body text goes here. asdf asdf sadf asdf asdf
+              asdf sadf asdfa sdf Modal body text goes here. asdf asdf sadf asdf
+              asdf asdf sadf
+            </p>
           </div>
           <div className="modal-footer">
             <button
