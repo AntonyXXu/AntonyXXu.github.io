@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import portfolio from "../statics/Portfolio.json";
 import Wrapper from "./Wrapper";
+import Modal from "./portfolio/Modal";
 
 const Portfolio = () => {
+  //Filter actively shown portfolios
   const [filter, setFilter] = useState("all");
   const [projects, setProjects] = useState(portfolio);
 
@@ -13,6 +15,12 @@ const Portfolio = () => {
     }));
     setProjects(final);
   }, [filter]);
+
+  //Show Modal of portfolio details
+  const [showModal, setModal] = useState(false);
+  const toggleModal = () => {
+    setModal(!showModal);
+  };
 
   return (
     <Wrapper>
@@ -29,6 +37,7 @@ const Portfolio = () => {
               activites to view some details. Software related projects can be
               found on my github.
             </p>
+            <Modal />
             <div className="row">
               <div className="col-lg-12 d-flex justify-content-center">
                 <ul id="portfolio-filters">
@@ -82,14 +91,16 @@ const Portfolio = () => {
                   }
                 >
                   <h4 key={item.name}>{item.name}</h4>
-                  <div className="portfolio-wrap">
+                  <div className="portfolio-wrap" onClick={toggleModal}>
                     <img
                       src={item.imglnk}
                       className="img-fluid portfolio-img"
                       alt={item.name}
                     />
+
                     <div className="portfolio-links portfolio-caption">
                       <h6>{item.description}</h6>
+                      <div className="portfolio-lightbox"></div>
                     </div>
                   </div>
                 </div>

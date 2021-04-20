@@ -1,39 +1,51 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useSpring, animated } from "react-spring";
 
-const Modal = () => {
-  if (!this.show) {
-    return null;
-  }
+const Modal = ({ showModal, setModal }) => {
+  const enterScreen = useSpring({
+    config: {
+      duration: 250,
+    },
+    opacity: showModal ? 1 : 0,
+    transform: showModal ? `translateY(0%)` : `translateY(-100%)`,
+  });
+
+  //   if (!showModal) {
+  //     return null;
+  //   }
+
   return (
-    <div class="modal" tabindex="-1" role="dialog">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Modal title</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>Modal body text goes here.</p>
-          </div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
+    <animated.div style={enterScreen}>
+      <div className="modal" tabIndex="-1" role="dialog">
+        <div className="modal-dialog" role="document">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title">Modal title</h5>
+              <button
+                type="button"
+                className="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div className="modal-body">
+              <p>Modal body text goes here.</p>
+            </div>
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </animated.div>
   );
 };
 
