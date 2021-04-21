@@ -159,7 +159,7 @@
   overflow: visible;
   z-index: 15;
   align-self: center;
-  top: 200px;
+  top: 110px;
   width: 90%;
   height: 0px;
 }
@@ -178,6 +178,11 @@
   display: block;
   justify-content: center;
   padding: 25px;
+  text-align: center;
+}
+
+.modal-body {
+  padding-left: 0px;
 }
 /* Resume */
 .download {

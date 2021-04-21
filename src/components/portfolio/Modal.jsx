@@ -36,9 +36,9 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
       case "2":
         return <GhostRacer toggleModal={toggleModal} />;
       case "3":
-        return <WindowsWallpapers toggleModal={toggleModal} />;
-      case "4":
         return <PersonalSite toggleModal={toggleModal} />;
+      case "4":
+        return <WindowsWallpapers toggleModal={toggleModal} />;
       case "5":
         return <YoutubeExtension toggleModal={toggleModal} />;
       case "6":

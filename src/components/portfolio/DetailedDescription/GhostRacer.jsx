@@ -1,8 +1,13 @@
+import React, { useState } from "react";
+
 const GhostRacer = ({ toggleModal }) => {
+  const [gif, updategif] = useState(true);
+  const setgif = () => updategif(!gif);
+
   return (
     <>
       <div className="modal-header">
-        <h4 className="modal-title">Implementing OOP in C++</h4>
+        <h4 className="modal-title">Implementing OOP in a C++ Game</h4>
         <button
           type="button"
           className="close"
@@ -14,63 +19,68 @@ const GhostRacer = ({ toggleModal }) => {
         </button>
       </div>
       <div className="row">
-        <div className="col-lg-4 modal-img">
+        <div className="col-lg-4 modal-img" onClick={setgif}>
           <img
-            src={"./assets/portfolio/travel_sitePkgs.jpg"}
+            src={
+              !gif
+                ? "./assets/portfolio/ghostracer_modal.png"
+                : "./assets/portfolio/ghostracer_modal.gif"
+            }
             className="img-fluid "
             alt="Travel Website"
           />
+          <br></br>
+          Toggle Gif
         </div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>
-              <ul>
-                <li>
-                  <strong>Technologies:</strong>
-                  <br></br>
-                  Built a 2-D driving game in C++. Project is based on an UCLA
-                  DS&amp;A school project. Utilizes two primary classes, Actor
-                  and World to manage all logic within the game.
-                </li>
-                <li>
-                  <strong>Functionalities</strong>
-                  <br></br>
-                  <ul>
-                    <li>
-                      User Functionalities: Users can login/register, and
-                      'purchase' various travel packages. They can also view
-                      their previous packages they have purchased. There are
-                      admin functionalities for admins who would like to create
-                      brand new packages
-                    </li>
-                    <li>
-                      Travel Locations and Packages: Users can view filtered
-                      locations based on three continents, and view their
-                      respective travel packages (Users must be logged in to
-                      purchase). Packages can be created as well to add to or
-                      update the database. Outdated packages are filtered and no
-                      longer rendered
-                    </li>
-                    <li>
-                      Database: All pages are rendered based on the database
-                      data. The database logs user history, package history, and
-                      purchase history to allow for tracking of regularly
-                      purchased packages, and user preferences.
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <strong>Link:</strong>{" "}
-                  <a
-                    href="https://travelsite-antony.herokuapp.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    View the site! Try username a, password a to test it out.
-                  </a>
-                </li>
-              </ul>
-            </p>
+            <ul>
+              <li>
+                <strong>Technologies:</strong>
+                <br></br>
+                Built a 2-D driving game in C++. Project is based on an UCLA
+                DS&amp;A school project to implement all aspects of object
+                oriented programming. Utilizes two primary classes, Actor and
+                World to manage all logic within the game. I created the
+                Actor.h, Actor.cpp, StudentWorld.h, and StudentWorld.cpp files.
+              </li>
+              <li>
+                <strong>Functionalities</strong>
+                <br></br>
+                <ul>
+                  <li>
+                    Gameplay: <br></br>
+                    Player is the red car, looking to contact spinning blue
+                    souls to beat the level. Contacting smaller pedestrians or
+                    losing all health will end the level. You can shoot holy
+                    water to kill zombies and zombie cabs.
+                  </li>
+                  <li>
+                    Actors (Objects) in the game: <br></br>
+                    All actors are derived from an "Actors" base class. They are
+                    rendered, and perform tasks through a virtual doSomething()
+                    function that is called in the overall game world.
+                  </li>
+                  <li>
+                    Game World: <br></br>
+                    All Actors are kept track of in the world through various
+                    lists, and are constructed/destructed in this class. In
+                    addition, this world manages all Actor locations and detects
+                    collisions between the interactable actors.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong>Link:</strong>{" "}
+                <a
+                  href="https://github.com/AntonyXXu/GhostRacer-Game"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View the game!
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
