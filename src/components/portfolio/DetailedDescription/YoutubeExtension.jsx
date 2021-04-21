@@ -29,7 +29,7 @@ const YoutubeExtension = ({ toggleModal }) => {
                 : "./assets/portfolio/youtube_extension.gif"
             }
             className="img-fluid "
-            alt="Portfolio Site"
+            alt="Youtube Extension"
           />
           <br></br>
           Toggle Gif
