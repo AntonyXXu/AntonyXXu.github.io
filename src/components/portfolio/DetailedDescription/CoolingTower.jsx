@@ -3,7 +3,7 @@ const CoolingTower = ({ toggleModal }) => {
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          Eliminating $1.5M/y in Maintenance Costs
+          Eliminating $1.5M/y in Maintenance Costs (in progress)
         </h4>
         <button
           type="button"

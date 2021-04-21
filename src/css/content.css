@@ -36,12 +36,6 @@
   background: #040b14;
 }
 
-@media (max-width: 1399px) {
-  .mobile-menu {
-    display: inline;
-  }
-}
-
 /* Landing Page*/
 .hero-container {
   padding-bottom: 390px;
@@ -91,12 +85,7 @@
 .imgcaption:hover {
   color: #149ddd;
 }
-@media (max-width: 991px) {
-  .info {
-    padding: 2vw 5vw 2vw;
-    text-align: justify;
-  }
-}
+
 /* Portfolio */
 .visible {
   /* transition: opacity 1s, max-height 1s, max-width 1s, scale 1s; */
@@ -124,13 +113,6 @@
   left: 2vw;
   right: 2vw;
 }
-@media (max-width: 769px) {
-  .portfolio .portfolio-wrap .portfolio-links {
-    top: 3vw;
-    left: 3vw;
-    right: 3vw;
-  }
-}
 
 .portfolio-wrap:hover .portfolio-img {
   opacity: 0.3;
@@ -153,6 +135,8 @@
 }
 
 /* Modals */
+.modal-background {
+}
 
 .modal-wrapper {
   position: absolute;
@@ -160,8 +144,9 @@
   z-index: 15;
   align-self: center;
   top: 110px;
+  /* left: 300px; */
   width: 90%;
-  height: 0px;
+  height: 1px;
 }
 .modal-info {
   position: relative;
@@ -230,3 +215,23 @@
   transform-origin: top;
 }
 /* Contact */
+
+/* Media Query */
+@media (max-width: 1399px) {
+  .mobile-menu {
+    display: inline;
+  }
+}
+@media (max-width: 991px) {
+  .info {
+    padding: 2vw 5vw 2vw;
+    text-align: justify;
+  }
+}
+@media (max-width: 769px) {
+  .portfolio .portfolio-wrap .portfolio-links {
+    top: 3vw;
+    left: 3vw;
+    right: 3vw;
+  }
+}

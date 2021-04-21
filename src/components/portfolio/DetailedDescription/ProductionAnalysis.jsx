@@ -3,7 +3,7 @@ const ProductionAnalysis = ({ toggleModal }) => {
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          Identifying a $50M/y vulnerability through Data
+          Identifying a $50M/y vulnerability through Data (in progress)
         </h4>
         <button
           type="button"

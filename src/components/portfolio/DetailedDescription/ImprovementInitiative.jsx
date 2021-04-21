@@ -3,7 +3,8 @@ const ImprovementInitiative = ({ toggleModal }) => {
     <>
       <div className="modal-header">
         <h5 className="modal-title">
-          Reducing Environmental Waste through Cross Functional Coordination
+          Reducing Environmental Waste through Cross Functional Coordination (in
+          progress)
         </h5>
         <button
           type="button"

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const WindowsWallpapers = ({ toggleModal }) => {
-  const [gif, updategif] = useState(true);
+  const [gif, updategif] = useState(false);
   const setgif = () => updategif(!gif);
   return (
     <>
@@ -21,6 +21,7 @@ const WindowsWallpapers = ({ toggleModal }) => {
       </div>
       <div className="row">
         <div className="col-lg-4 modal-img" onClick={setgif}>
+          <h5>Toggle Gif</h5>
           <img
             src={
               !gif
@@ -31,7 +32,6 @@ const WindowsWallpapers = ({ toggleModal }) => {
             alt="Wallpaper"
           />
           <br></br>
-          Toggle Gif
         </div>
         <div className="col-lg-8">
           <div className="modal-body">

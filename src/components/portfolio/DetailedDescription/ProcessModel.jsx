@@ -3,7 +3,8 @@ const ProcessModel = ({ toggleModal }) => {
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          Compiling Process Model Results to Analyze Process Limits
+          Compiling Process Model Results to Analyze Process Limits (in
+          progress)
         </h4>
         <button
           type="button"

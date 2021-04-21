@@ -68,8 +68,9 @@ const TravelSite = ({ toggleModal }) => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View the site! Try username a, password a to test it out.
+                  View the site!
                 </a>
+                <p>Try username: a, password: a </p>
               </li>
             </ul>
           </div>

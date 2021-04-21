@@ -3,7 +3,8 @@ const Controls = ({ toggleModal }) => {
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          Removing Over $10M of risk through adjusting controls logic
+          Removing Over $10M of risk through adjusting controls logic (in
+          progress)
         </h4>
         <button
           type="button"
@@ -18,13 +19,7 @@ const Controls = ({ toggleModal }) => {
       <div className="row">
         <div className="col-lg-4">{/* Image */}</div>
         <div className="col-lg-8">
-          <div className="modal-body">
-            <ul>
-              <li>
-                <strong>Problem: </strong>
-              </li>
-            </ul>
-          </div>
+          <div className="modal-body"></div>
         </div>
       </div>
     </>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const YoutubeExtension = ({ toggleModal }) => {
-  const [gif, updategif] = useState(true);
+  const [gif, updategif] = useState(false);
   const setgif = () => updategif(!gif);
 
   return (
@@ -21,7 +21,11 @@ const YoutubeExtension = ({ toggleModal }) => {
         </button>
       </div>
       <div className="row">
-        <div className="col-lg-6 modal-img" onClick={setgif}>
+        <div
+          className="col-lg-6 modal-img align-items-center justify-content-center"
+          onClick={setgif}
+        >
+          <h5>Toggle Gif</h5>
           <img
             src={
               !gif
@@ -31,8 +35,6 @@ const YoutubeExtension = ({ toggleModal }) => {
             className="img-fluid "
             alt="Youtube Extension"
           />
-          <br></br>
-          Toggle Gif
         </div>
         <div className="col-lg-6">
           <div className="modal-body">

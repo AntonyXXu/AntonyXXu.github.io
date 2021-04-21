@@ -23,7 +23,6 @@ const Portfolio = () => {
   //Show Modal of portfolio details
   const [showModal, setModal] = useState(0);
   const toggleModal = (e) => {
-    console.log(e.target.className);
     if (!showModal) {
       setModal(e.target.getAttribute("data-index"));
     } else {
