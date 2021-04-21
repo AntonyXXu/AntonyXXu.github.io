@@ -8,7 +8,6 @@ const Contactme = () => {
             <div className="section-title contact">
               <h1>Contact Me</h1>{" "}
             </div>
-
             <div className="row justify-content-md-center">
               <div className="col-md-auto">
                 <div className="info">

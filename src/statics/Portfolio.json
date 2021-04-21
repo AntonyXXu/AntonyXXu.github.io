@@ -6,33 +6,32 @@
     "imglnk": "./assets/portfolio/travel_site.jpg"
   },
   {
-    "key": 3,
-    "name": "Windows Wallpapers",
-    "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/windowswallpaper.jpg"
-  },
-  {
     "key": 2,
     "name": "GhostRacer Game",
     "category": ["all", "programming"],
     "imglnk": "./assets/portfolio/ghostracer.jpg"
   },
   {
-    "key": 4,
-    "name": "Process Model Compilation",
+    "key": 3,
+    "name": "Windows Wallpapers",
     "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/coker.jpg"
+    "imglnk": "./assets/portfolio/windowswallpaper.jpg"
+  },
+  {
+    "key": 4,
+    "name": "Personal Website",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/portfolio_site.jpg"
   },
   {
     "key": 5,
-    "name": "Resume Builder",
-    "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/resume_builder.jpg"
+    "name": "Youtube Search Extension",
+    "category": ["all", "Programming"],
+    "imglnk": "./assets/portfolio/youtube_extension.jpg"
   },
-
   {
     "key": 6,
-    "name": "Cross Functional Testing",
+    "name": "Site Improvement Initiatives",
     "category": ["all", "leadership"],
     "imglnk": "./assets/portfolio/upgrader.jpg"
   },
@@ -56,8 +55,14 @@
   },
   {
     "key": 10,
-    "name": "YoutubeSearch Extension",
-    "category": ["all", "Programming"],
-    "imglnk": "./assets/portfolio/youtube_extension.jpg"
+    "name": "Resume Builder",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/resume_builder.jpg"
+  },
+  {
+    "key": 11,
+    "name": "Process Model Compilation",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/coker.jpg"
   }
 ]

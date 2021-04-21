@@ -101,7 +101,7 @@ const Menu = () => {
         </nav>
         <button
           type="button"
-          className="mobile-nav-toggle d-xl-none"
+          className="mobile-nav-toggle"
           onClick={handleClick}
         >
           {!click ? (

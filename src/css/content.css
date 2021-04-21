@@ -18,6 +18,7 @@
 .mobile-menu {
   color: #173b6c;
   width: 10%;
+  display: none;
 }
 
 .nav-menu .active,
@@ -33,6 +34,12 @@
 
 #header {
   background: #040b14;
+}
+
+@media (max-width: 1399px) {
+  .mobile-menu {
+    display: inline;
+  }
 }
 
 /* Landing Page*/

@@ -28,6 +28,35 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
     }
   }, [showModal]);
 
+  const getExperience = () => {
+    console.log(showModal);
+    switch (showModal) {
+      case 1:
+        return <TravelSite />;
+      case 2:
+        return <GhostRacer />;
+      case 3:
+        return <GhostRacer />;
+      case 4:
+        return <GhostRacer />;
+      case 5:
+        return <GhostRacer />;
+      case 6:
+        return <GhostRacer />;
+      case 7:
+        return <GhostRacer />;
+      case 8:
+        return <GhostRacer />;
+      case 9:
+        return <GhostRacer />;
+      case 10:
+        return <GhostRacer />;
+      default:
+        setModal(0);
+        break;
+    }
+  };
+
   return (
     <div className="modal-wrapper modal-xl">
       <div className="modal-info">
@@ -46,36 +75,10 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
             </button>
           </div>
           <div className="row">
-            <div className="col-lg-4"></div>
+            <div className="col-lg-4">{/* Image */}</div>
             <div className="col-lg-8">
               <div className="modal-body">
-                <p>
-                  Modal body text goes here. asdf asdf sadf asdf asdf asdf sadf
-                  asdfa sdf Modal body text goes here. asdf asdf sadf asdf asdf
-                  asdf sadf asdfa sdf Modal body text goes here. asdf asdf sadf
-                  asdf asdf asdf sadf asdfa sdf Modal body text goes here. asdf
-                  asdf sadf asdf asdf asdf sadfModal body text goes here. asdf
-                  asdf sadf asdf asdf asdf sadf asdfa sdf Modal body text goes
-                  here. asdf asdf sadf asdf asdf asdf sadf asdfa sdf Modal body
-                  text goes here. asdf asdf sadf asdf asdf asdf sadf asdfa sdf
-                  Modal body text goes here. asdf asdf sadf asdf asdf asdf
-                  sadfModal body text goes here. asdf asdf sadf asdf asdf asdf
-                  sadf asdfa sdf Modal body text goes here. asdf asdf sadf asdf
-                  asdf asdf sadf asdfa sdf Modal body text goes here. asdf asdf
-                  sadf asdf asdf asdf sadf asdfa sdf Modal body text goes here.
-                  asdf asdf sadf asdf asdf asdf sadfModal body text goes here.
-                  asdf asdf sadf asdf asdf asdf sadf asdfa sdf Modal body text
-                  goes here. asdf asdf sadf asdf asdf asdf sadf asdfa sdf Modal
-                  body text goes here. asdf asdf sadf asdf asdf asdf sadf asdfa
-                  sdf Modal body text goes here. asdf asdf sadf asdf asdf asdf
-                  sadfModal body text goes here. asdf asdf sadf asdf asdf asdf
-                  sadf asdfa sdf Modal body text goes here. asdf asdf sadf asdf
-                  asdf asdf sadf asdfa sdf Modal body text goes here. asdf asdf
-                  sadf asdf asdf asdf sadf asdfa sdf Modal body text goes here.
-                  asdf asdf sadf asdf asdf asdf sadfModal body text goes here.
-                  asdf asdf sadf asdf asdf asdf sadf asdfa sdf Modal body text
-                  goes here. asdf asdf sadf asdf asdf asdf sadf asdfa sdf
-                </p>
+                <p>{/* Text */}</p>
               </div>
             </div>
           </div>
