@@ -15,7 +15,7 @@ import { useSpring, animated } from "react-spring";
 const Modal = ({ showModal, setModal, toggleModal }) => {
   const enterScreen = useSpring({
     opacity: showModal ? 1 : 0,
-    transform: showModal ? "translateY(0%)" : "translateY(-150%)",
+    transform: showModal ? "translateY(0%)" : "translateY(-100%)",
     zIndex: showModal ? 16 : -5,
     config: {
       duration: 250,

@@ -27,7 +27,7 @@ const GhostRacer = ({ toggleModal }) => {
                 : "./assets/portfolio/ghostracer_modal.gif"
             }
             className="img-fluid "
-            alt="Travel Website"
+            alt="Ghost Racer Game"
           />
           <br></br>
           Toggle Gif

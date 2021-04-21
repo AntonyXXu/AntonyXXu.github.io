@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import portfolio from "../statics/Portfolio.json";
 import Wrapper from "./Wrapper";
 import Modal from "./portfolio/Modal";
@@ -23,6 +23,7 @@ const Portfolio = () => {
   //Show Modal of portfolio details
   const [showModal, setModal] = useState(0);
   const toggleModal = (e) => {
+    console.log(e.target.className);
     if (!showModal) {
       setModal(e.target.getAttribute("data-index"));
     } else {
@@ -30,9 +31,23 @@ const Portfolio = () => {
     }
   };
 
+  //Close modal on press escape
+  const keyPress = useCallback(
+    (e) => {
+      if (e.key === "Escape" && showModal) {
+        setModal(0);
+      }
+    },
+    [setModal, showModal]
+  );
+  useEffect(() => {
+    document.addEventListener("keydown", keyPress);
+    return () => document.removeEventListener("keydown", keyPress);
+  }, [keyPress]);
+
   return (
     <Wrapper>
-      <main id="main" onClick={toggleModal}>
+      <main id="main">
         <section id="portfolio" className="portfolio section-bg">
           <div className="container">
             <div className="section-title">

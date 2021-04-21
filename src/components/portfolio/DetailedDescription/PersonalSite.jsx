@@ -2,6 +2,9 @@ const PersonalSite = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
+        <h4 className="modal-title">
+          Creating my Portfolio Website in React.js
+        </h4>
         <button
           type="button"
           className="close"
@@ -13,14 +16,14 @@ const PersonalSite = ({ toggleModal }) => {
         </button>
       </div>
       <div className="row">
-        <div className="col-lg-4 modal-img">
+        <div className="col-lg-6 modal-img">
           <img
             src="./assets/portfolio/portfolio_site_modal.jpg"
             className="img-fluid "
-            alt="Travel Website"
+            alt="Portfolio Site"
           />
         </div>
-        <div className="col-lg-8">
+        <div className="col-lg-6">
           <div className="modal-body">
             <ul>
               <li>
