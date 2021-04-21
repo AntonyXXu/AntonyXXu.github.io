@@ -18,7 +18,7 @@ const Education = () => {
         <li>
           <strong>Technologies:</strong>{" "}
           <span>
-            Python, Node.js, SQL, T-SQL, MongoDB, AWS, C#, ASP, .NET, AWS
+            Python, JavaScript, Node.js, SQL, T-SQL, MongoDB, C#, ASP, .NET, AWS
           </span>
         </li>
       </ul>

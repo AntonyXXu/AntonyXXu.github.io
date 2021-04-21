@@ -153,6 +153,7 @@
 }
 
 /* Modals */
+
 .modal-wrapper {
   position: absolute;
   overflow: visible;
@@ -173,7 +174,11 @@
   max-height: 100%;
   justify-content: center;
 }
-
+.modal-img {
+  display: block;
+  justify-content: center;
+  padding: 25px;
+}
 /* Resume */
 .download {
   margin-bottom: 20px;

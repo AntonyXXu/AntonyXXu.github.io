@@ -59,21 +59,23 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
   };
 
   return (
-    <div className="modal-wrapper modal-xl">
-      <div className="modal-info">
-        <animated.div className="modal-content" style={enterScreen}>
-          <GetExperience />
-          <div className="modal-footer">
-            <button
-              type="button"
-              className="btn btn-secondary"
-              data-dismiss="modal"
-              onClick={toggleModal}
-            >
-              Close
-            </button>
-          </div>
-        </animated.div>
+    <div className="modal-background">
+      <div className="modal-wrapper modal-xl">
+        <div className="modal-info">
+          <animated.div className="modal-content" style={enterScreen}>
+            <GetExperience />
+            <div className="modal-footer">
+              <button
+                type="button"
+                className="btn btn-secondary"
+                data-dismiss="modal"
+                onClick={toggleModal}
+              >
+                Close
+              </button>
+            </div>
+          </animated.div>
+        </div>
       </div>
     </div>
   );

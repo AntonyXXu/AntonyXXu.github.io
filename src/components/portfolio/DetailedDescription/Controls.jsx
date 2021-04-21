@@ -19,7 +19,11 @@ const Controls = ({ toggleModal }) => {
         <div className="col-lg-4">{/* Image */}</div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>aaaaa{/* Text */}</p>
+            <ul>
+              <li>
+                <strong>Problem: </strong>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
