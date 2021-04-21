@@ -22,8 +22,9 @@ const Portfolio = () => {
 
   //Show Modal of portfolio details
   const [showModal, setModal] = useState(false);
-  const toggleModal = () => {
+  const toggleModal = (e) => {
     setModal(!showModal);
+    console.log(e.target.getAttribute("data-index"));
   };
 
   return (
@@ -37,9 +38,9 @@ const Portfolio = () => {
             <p>
               See below for some of my projects and experiences in detail! Feel
               free to filter by software related projects, work related
-              accomplishments, or leadership accomplishments. Hover over the
-              activites to view some details. Software related projects can be
-              found on my github.
+              achivements, or leadership accomplishments. Click on the various
+              boxes to view details. Software related projects can be found on
+              my github.
             </p>
 
             <div className="row">
@@ -100,24 +101,26 @@ const Portfolio = () => {
               {projects.map((item) => (
                 <div
                   key={item.key}
+                  data-index={item.key}
                   className={
                     item.filtered
                       ? "col-lg-4 col-md-6 portfolio-item filter-analysis visible"
                       : "col-lg-4 col-md-6 portfolio-item filter-analysis invisible"
                   }
+                  onClick={toggleModal}
                 >
                   <h4 key={item.name}>{item.name}</h4>
-                  <div className="portfolio-wrap" onClick={toggleModal}>
+                  <div className="portfolio-wrap">
                     <img
                       src={item.imglnk}
                       className="img-fluid portfolio-img"
                       alt={item.name}
                     />
 
-                    <div className="portfolio-links portfolio-caption">
+                    {/* <div className="portfolio-links portfolio-caption">
                       <h6>{item.description}</h6>
                       <div className="portfolio-lightbox"></div>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               ))}

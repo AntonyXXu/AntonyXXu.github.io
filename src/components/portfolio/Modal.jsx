@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import { useSpring, animated } from "react-spring";
 
-const Modal = ({ showModal, toggleModal }) => {
+const Modal = ({ showModal, setModal, toggleModal }) => {
   const enterScreen = useSpring({
     opacity: showModal ? 1 : 0,
-    // transform: showModal ? `translateY(100%)` : `translateY(-100%)`,
+    zIndex: showModal ? 16 : -1,
     config: {
-      duration: 350,
+      duration: 250,
     },
   });
 
@@ -16,11 +16,11 @@ const Modal = ({ showModal, toggleModal }) => {
     }
   }, [showModal]);
 
-  if (!showModal) return null;
+  //   if (!showModal) return null;
   return (
     <div className="modal-wrapper modal-xl">
-      <animated.div className="modal-info" style={enterScreen}>
-        <div className="modal-content">
+      <div className="modal-info">
+        <animated.div className="modal-content" style={enterScreen}>
           <div className="modal-header">
             <h5 className="modal-title">Details About ____</h5>
             <button
@@ -52,8 +52,8 @@ const Modal = ({ showModal, toggleModal }) => {
               Close
             </button>
           </div>
-        </div>
-      </animated.div>
+        </animated.div>{" "}
+      </div>
     </div>
   );
 };
