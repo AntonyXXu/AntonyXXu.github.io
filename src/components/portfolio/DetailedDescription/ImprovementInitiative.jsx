@@ -2,9 +2,9 @@ const ImprovementInitiative = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
-        <h4 className="modal-title">
-          About My Project to Reduce Risk at Refineries
-        </h4>
+        <h5 className="modal-title">
+          Reducing Environmental Waste through Cross Functional Coordination
+        </h5>
         <button
           type="button"
           className="close"

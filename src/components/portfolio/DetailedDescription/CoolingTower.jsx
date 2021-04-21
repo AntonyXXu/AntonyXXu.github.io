@@ -2,7 +2,9 @@ const CoolingTower = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
-        <h4 className="modal-title">About my Cooling Tower Initiative</h4>
+        <h4 className="modal-title">
+          Eliminating $1.5M/y in Maintenance Costs
+        </h4>
         <button
           type="button"
           className="close"

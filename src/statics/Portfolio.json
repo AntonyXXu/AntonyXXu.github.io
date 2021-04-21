@@ -11,17 +11,18 @@
     "category": ["all", "programming"],
     "imglnk": "./assets/portfolio/ghostracer.jpg"
   },
+
   {
     "key": 3,
-    "name": "Windows Wallpapers",
-    "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/windowswallpaper.jpg"
-  },
-  {
-    "key": 4,
     "name": "Personal Website",
     "category": ["all", "programming"],
     "imglnk": "./assets/portfolio/portfolio_site.jpg"
+  },
+  {
+    "key": 4,
+    "name": "Windows Wallpapers",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/windowswallpaper.jpg"
   },
   {
     "key": 5,

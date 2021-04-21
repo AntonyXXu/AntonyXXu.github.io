@@ -2,7 +2,9 @@ const TravelSite = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
-        <h4 className="modal-title">About my Travel Website</h4>
+        <h4 className="modal-title">
+          Building a Travel Booking Website in Node.js and Express.js
+        </h4>
         <button
           type="button"
           className="close"

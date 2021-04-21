@@ -3,7 +3,7 @@ const YoutubeExtension = ({ toggleModal }) => {
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          About my Chrome Youtube Search Extension
+          I Built a Chrome Extension for redirecting to Youtube Search
         </h4>
         <button
           type="button"

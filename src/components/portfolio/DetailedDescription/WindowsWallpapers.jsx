@@ -3,7 +3,7 @@ const WindowsWallpapers = ({ toggleModal }) => {
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          About my Program Scrolling through Windows Backgrounds
+          Creating a Slideshow of Wallpapers for multi-monitor Windows Machines
         </h4>
         <button
           type="button"

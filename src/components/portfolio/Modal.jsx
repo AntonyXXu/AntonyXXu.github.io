@@ -32,29 +32,29 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
   const GetExperience = () => {
     switch (showModal) {
       case "1":
-        return <TravelSite />;
+        return <TravelSite toggleModal={toggleModal} />;
       case "2":
-        return <GhostRacer />;
+        return <GhostRacer toggleModal={toggleModal} />;
       case "3":
-        return <WindowsWallpapers />;
+        return <WindowsWallpapers toggleModal={toggleModal} />;
       case "4":
-        return <PersonalSite />;
+        return <PersonalSite toggleModal={toggleModal} />;
       case "5":
-        return <YoutubeExtension />;
+        return <YoutubeExtension toggleModal={toggleModal} />;
       case "6":
-        return <ImprovementInitiative />;
+        return <ImprovementInitiative toggleModal={toggleModal} />;
       case "7":
-        return <Controls />;
+        return <Controls toggleModal={toggleModal} />;
       case "8":
-        return <ProductionAnalysis />;
+        return <ProductionAnalysis toggleModal={toggleModal} />;
       case "9":
-        return <CoolingTower />;
+        return <CoolingTower toggleModal={toggleModal} />;
       case "10":
-        return <ResumeBuilder />;
+        return <ResumeBuilder toggleModal={toggleModal} />;
       case "11":
-        return <ProcessModel />;
+        return <ProcessModel toggleModal={toggleModal} />;
       default:
-        return <TravelSite />;
+        return null;
     }
   };
 
@@ -62,7 +62,6 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
     <div className="modal-wrapper modal-xl">
       <div className="modal-info">
         <animated.div className="modal-content" style={enterScreen}>
-          {/* modal info */}
           <GetExperience />
           <div className="modal-footer">
             <button

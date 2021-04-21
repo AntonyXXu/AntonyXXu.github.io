@@ -2,7 +2,9 @@ const ProductionAnalysis = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
-        <h4 className="modal-title">About my Production Data Analysis</h4>
+        <h4 className="modal-title">
+          Identifying a $50M/y vulnerability through Data
+        </h4>
         <button
           type="button"
           className="close"
