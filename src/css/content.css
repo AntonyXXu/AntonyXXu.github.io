@@ -139,6 +139,17 @@
   font-size: 120%;
   opacity: 0;
 }
+.portfolio-wrap:hover .btn-portfolio {
+  font-size: 120%;
+  opacity: 1;
+  transition: all ease-in-out 0.5s;
+}
+.btn-portfolio {
+  font-size: 120%;
+  opacity: 0;
+  height: 100px;
+  align-self: center;
+}
 
 /* Modals */
 .modal-wrapper {

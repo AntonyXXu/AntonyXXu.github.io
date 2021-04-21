@@ -119,13 +119,16 @@ const Portfolio = () => {
                     />
 
                     <div className="portfolio-links portfolio-caption">
+                      <div className="portfolio-lightbox"></div>
+
                       <button
-                        className="btn btn-primary"
+                        className="btn btn-primary btn-portfolio"
                         data-index={item.key}
                         onClick={toggleModal}
-                      ></button>
-                      <h6>{item.description}</h6>
-                      <div className="portfolio-lightbox"></div>
+                      >
+                        View {item.name}
+                      </button>
+                      {/* <h6>{item.description}</h6> */}
                     </div>
                   </div>
                 </div>
