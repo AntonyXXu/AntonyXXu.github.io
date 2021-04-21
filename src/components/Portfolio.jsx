@@ -32,7 +32,7 @@ const Portfolio = () => {
 
   return (
     <Wrapper>
-      <main id="main">
+      <main id="main" onClick={toggleModal}>
         <section id="portfolio" className="portfolio section-bg">
           <div className="container">
             <div className="section-title">

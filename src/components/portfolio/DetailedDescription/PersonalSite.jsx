@@ -14,9 +14,11 @@ const PersonalSite = ({ toggleModal }) => {
       </div>
       <div className="row">
         <div className="col-lg-4 modal-img">
-          <img src="" className="img-fluid " alt="Travel Website" />
-          <br></br>
-          Toggle Gif
+          <img
+            src="./assets/portfolio/portfolio_site_modal.jpg"
+            className="img-fluid "
+            alt="Travel Website"
+          />
         </div>
         <div className="col-lg-8">
           <div className="modal-body">
@@ -25,42 +27,45 @@ const PersonalSite = ({ toggleModal }) => {
                 <strong>Technologies:</strong>
                 <br></br>
                 Built a personal portfolio website using React.js, react-spring
-                for animations, Bootstrap,
+                for animations, Bootstrap, and react-typed. Applied hooks to
+                manage page states, control animations, and adjust rendered page
+                data (such as this Modal!)
               </li>
               <li>
                 <strong>Functionalities</strong>
                 <br></br>
                 <ul>
                   <li>
-                    Gameplay: <br></br>
-                    Player is the red car, looking to contact spinning blue
-                    souls to beat the level. Contacting smaller pedestrians or
-                    losing all health will end the level. You can shoot holy
-                    water to kill zombies and zombie cabs.
+                    <em>Single Page Application: </em> <br></br>
+                    Used hooks to manage states and properties of the page, such
+                    as toggling gifs, what data to render, and filtering my
+                    portfolio
                   </li>
                   <li>
-                    Actors (Objects) in the game: <br></br>
-                    All actors are derived from an "Actors" base class. They are
-                    rendered, and perform tasks through a virtual doSomething()
-                    function that is called in the overall game world.
+                    <em>Animations:</em> <br></br>
+                    Used hooks to create various animations with React-Spring.
+                    On page change, I apply a transition to translate the older
+                    page out of the screen, and the newer page into the screen.
+                    Similar transitions are used for hiding resume sections and
+                    portfolio modals
                   </li>
                   <li>
-                    Game World: <br></br>
-                    All Actors are kept track of in the world through various
-                    lists, and are constructed/destructed in this class. In
-                    addition, this world manages all Actor locations and detects
-                    collisions between the interactable actors.
+                    <em> Portfolio Page:</em> <br></br>
+                    All experiences are filtered with hooks, based on a static
+                    json file. Upon click of a modal, the key is passed to a
+                    Modal component that renders the correct detailed page for
+                    experience.
                   </li>
                 </ul>
               </li>
               <li>
                 <strong>Link:</strong>{" "}
                 <a
-                  href="https://github.com/AntonyXXu/GhostRacer-Game"
+                  href="https://github.com/AntonyXXu/AntonyXXu.github.io"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  View the game!
+                  View the Code!
                 </a>
               </li>
             </ul>

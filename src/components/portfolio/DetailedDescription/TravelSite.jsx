@@ -38,25 +38,26 @@ const TravelSite = ({ toggleModal }) => {
                 <br></br>
                 <ul>
                   <li>
-                    User Functionalities: Users can login/register, and
-                    'purchase' various travel packages. They can also view their
-                    previous packages they have purchased. There are admin
-                    functionalities for admins who would like to create brand
-                    new packages
+                    <em>User Functionalities:</em> <br></br>
+                    Users can login/register, and 'purchase' various travel
+                    packages. They can also view their previous packages they
+                    have purchased. There are admin functionalities for admins
+                    who would like to create brand new packages
                   </li>
                   <li>
-                    Travel Locations and Packages: Users can view filtered
-                    locations based on three continents, and view their
-                    respective travel packages (Users must be logged in to
-                    purchase). Packages can be created as well to add to or
-                    update the database. Outdated packages are filtered and no
-                    longer rendered
+                    <em> Travel Locations and Packages:</em> <br></br>
+                    Users can view filtered locations based on three continents,
+                    and view their respective travel packages (Users must be
+                    logged in to purchase). Packages can be created as well to
+                    add to or update the database. Outdated packages are
+                    filtered and no longer rendered
                   </li>
                   <li>
-                    Database: All pages are rendered based on the database data.
-                    The database logs user history, package history, and
-                    purchase history to allow for tracking of regularly
-                    purchased packages, and user preferences.
+                    <em> Database:</em> <br></br>
+                    All pages are rendered based on the database data. The
+                    database logs user history, package history, and purchase
+                    history to allow for tracking of regularly purchased
+                    packages, and user preferences.
                   </li>
                 </ul>
               </li>
