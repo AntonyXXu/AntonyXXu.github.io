@@ -145,9 +145,9 @@
   transition: all ease-in-out 0.5s;
 }
 .btn-portfolio {
-  font-size: 120%;
+  font-size: 0%;
   opacity: 0;
-  height: 100px;
+  height: auto;
   align-self: center;
 }
 
@@ -157,7 +157,7 @@
   overflow: visible;
   z-index: 15;
   align-self: center;
-  top: 250px;
+  top: 200px;
   width: 90%;
   height: 0px;
 }

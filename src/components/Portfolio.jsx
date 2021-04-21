@@ -122,7 +122,7 @@ const Portfolio = () => {
                       <div className="portfolio-lightbox"></div>
 
                       <button
-                        className="btn btn-outline-primary btn-portfolio"
+                        className="btn btn-primary btn-portfolio"
                         data-index={item.key}
                         onClick={toggleModal}
                       >

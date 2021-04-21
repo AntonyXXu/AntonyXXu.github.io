@@ -1,4 +1,14 @@
 import React, { useEffect } from "react";
+import Controls from "./DetailedDescription/Controls";
+import CoolingTower from "./DetailedDescription/CoolingTower";
+import CrossFunctional from "./DetailedDescription/CrossFunctional";
+import GhostRacer from "./DetailedDescription/GhostRacer";
+import ProcessModel from "./DetailedDescription/ProcessModel";
+import ProductionAnalysis from "./DetailedDescription/ProductionAnalysis";
+import ResumeBuilder from "./DetailedDescription/ResumeBuilder";
+import TravelSite from "./DetailedDescription/TravelSite";
+import WindowsWallpapers from "./DetailedDescription/WindowsWallpapers";
+import YoutubeExtension from "./DetailedDescription/YoutubeExtension";
 import { useSpring, animated } from "react-spring";
 
 const Modal = ({ showModal, setModal, toggleModal }) => {
@@ -17,13 +27,14 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
       window.scrollTo(0, 0);
     }
   }, [showModal]);
-  console.log(showModal);
+
   return (
     <div className="modal-wrapper modal-xl">
       <div className="modal-info">
         <animated.div className="modal-content" style={enterScreen}>
+          {/* modal info */}
           <div className="modal-header">
-            <h5 className="modal-title">Details About ____</h5>
+            <h4 className="modal-title">Details About ____</h4>
             <button
               type="button"
               className="close"
@@ -34,14 +45,39 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div className="modal-body">
-            <p>
-              Modal body text goes here. asdf asdf sadf asdf asdf asdf sadf
-              asdfa sdf Modal body text goes here. asdf asdf sadf asdf asdf asdf
-              sadf asdfa sdf Modal body text goes here. asdf asdf sadf asdf asdf
-              asdf sadf asdfa sdf Modal body text goes here. asdf asdf sadf asdf
-              asdf asdf sadf
-            </p>
+          <div className="row">
+            <div className="col-lg-4"></div>
+            <div className="col-lg-8">
+              <div className="modal-body">
+                <p>
+                  Modal body text goes here. asdf asdf sadf asdf asdf asdf sadf
+                  asdfa sdf Modal body text goes here. asdf asdf sadf asdf asdf
+                  asdf sadf asdfa sdf Modal body text goes here. asdf asdf sadf
+                  asdf asdf asdf sadf asdfa sdf Modal body text goes here. asdf
+                  asdf sadf asdf asdf asdf sadfModal body text goes here. asdf
+                  asdf sadf asdf asdf asdf sadf asdfa sdf Modal body text goes
+                  here. asdf asdf sadf asdf asdf asdf sadf asdfa sdf Modal body
+                  text goes here. asdf asdf sadf asdf asdf asdf sadf asdfa sdf
+                  Modal body text goes here. asdf asdf sadf asdf asdf asdf
+                  sadfModal body text goes here. asdf asdf sadf asdf asdf asdf
+                  sadf asdfa sdf Modal body text goes here. asdf asdf sadf asdf
+                  asdf asdf sadf asdfa sdf Modal body text goes here. asdf asdf
+                  sadf asdf asdf asdf sadf asdfa sdf Modal body text goes here.
+                  asdf asdf sadf asdf asdf asdf sadfModal body text goes here.
+                  asdf asdf sadf asdf asdf asdf sadf asdfa sdf Modal body text
+                  goes here. asdf asdf sadf asdf asdf asdf sadf asdfa sdf Modal
+                  body text goes here. asdf asdf sadf asdf asdf asdf sadf asdfa
+                  sdf Modal body text goes here. asdf asdf sadf asdf asdf asdf
+                  sadfModal body text goes here. asdf asdf sadf asdf asdf asdf
+                  sadf asdfa sdf Modal body text goes here. asdf asdf sadf asdf
+                  asdf asdf sadf asdfa sdf Modal body text goes here. asdf asdf
+                  sadf asdf asdf asdf sadf asdfa sdf Modal body text goes here.
+                  asdf asdf sadf asdf asdf asdf sadfModal body text goes here.
+                  asdf asdf sadf asdf asdf asdf sadf asdfa sdf Modal body text
+                  goes here. asdf asdf sadf asdf asdf asdf sadf asdfa sdf
+                </p>
+              </div>
+            </div>
           </div>
           <div className="modal-footer">
             <button
