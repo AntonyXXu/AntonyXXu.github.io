@@ -1,9 +1,9 @@
-const PersonalWebsite = ({ toggleModal }) => {
+const ImprovementInitiative = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          Building My Portfolio Website in React.js
+          About My Project to Reduce Risk at Refineries
         </h4>
         <button
           type="button"
@@ -19,7 +19,7 @@ const PersonalWebsite = ({ toggleModal }) => {
         <div className="col-lg-4">{/* Image */}</div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>aaaaa{/* Text */}</p>
+            <p>{/* Text */}</p>
           </div>
         </div>
       </div>
@@ -27,4 +27,4 @@ const PersonalWebsite = ({ toggleModal }) => {
   );
 };
 
-export default PersonalWebsite;
+export default ImprovementInitiative;

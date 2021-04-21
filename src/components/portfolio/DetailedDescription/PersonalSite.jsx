@@ -1,9 +1,9 @@
-const CrossFunctional = ({ toggleModal }) => {
+const PersonalSite = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          About My Project to Reduce Risk at Refineries
+          Building My Portfolio Website in React.js
         </h4>
         <button
           type="button"
@@ -19,7 +19,7 @@ const CrossFunctional = ({ toggleModal }) => {
         <div className="col-lg-4">{/* Image */}</div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>{/* Text */}</p>
+            <p>aaaaa{/* Text */}</p>
           </div>
         </div>
       </div>
@@ -27,4 +27,4 @@ const CrossFunctional = ({ toggleModal }) => {
   );
 };
 
-export default CrossFunctional;
+export default PersonalSite;
