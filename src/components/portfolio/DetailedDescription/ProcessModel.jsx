@@ -20,7 +20,14 @@ const ProcessModel = ({ toggleModal }) => {
         <div className="col-lg-4">{/* Image */}</div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>{/* Text */}</p>
+            <p>
+              Historical process model results were not in accessible files,
+              making analysis difficult. I created a tool that parsed the
+              historical results into a common database, and analyzed the
+              results. After validating with live plant data, I identified
+              process modification opportunities that improved yields and gas
+              oil sales by $100k/y
+            </p>
           </div>
         </div>
       </div>

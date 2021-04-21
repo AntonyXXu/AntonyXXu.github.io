@@ -19,7 +19,12 @@ const ResumeBuilder = ({ toggleModal }) => {
         <div className="col-lg-4">{/* Image */}</div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>{/* Text */}</p>
+            <p>
+              Resume Builder Created a basic resume builder for a friend looking
+              for applications. The program pulls data from a csv or Google
+              Sheets document, and parses all of the data into a formatted
+              Google Docs file.
+            </p>
           </div>
         </div>
       </div>

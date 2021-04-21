@@ -19,7 +19,13 @@ const ProductionAnalysis = ({ toggleModal }) => {
         <div className="col-lg-4">{/* Image */}</div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>{/* Text */}</p>
+            <p>
+              Production Model Analysis I was responsible for model validation
+              and analysis for mine operations. Following debugging and
+              verification using Python, I built a tool to analyze millions of
+              data points, ultimately identifying a single point of failure in
+              the proposed project that would have costed over $50MM/year.
+            </p>
           </div>
         </div>
       </div>
