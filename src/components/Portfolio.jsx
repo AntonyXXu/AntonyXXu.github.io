@@ -21,10 +21,13 @@ const Portfolio = () => {
   };
 
   //Show Modal of portfolio details
-  const [showModal, setModal] = useState(false);
+  const [showModal, setModal] = useState(0);
   const toggleModal = (e) => {
-    setModal(!showModal);
-    console.log(e.target.getAttribute("data-index"));
+    if (!showModal) {
+      setModal(e.target.getAttribute("data-index"));
+    } else {
+      setModal(!showModal);
+    }
   };
 
   return (
@@ -101,13 +104,11 @@ const Portfolio = () => {
               {projects.map((item) => (
                 <div
                   key={item.key}
-                  data-index={item.key}
                   className={
                     item.filtered
                       ? "col-lg-4 col-md-6 portfolio-item filter-analysis visible"
                       : "col-lg-4 col-md-6 portfolio-item filter-analysis invisible"
                   }
-                  onClick={toggleModal}
                 >
                   <h4 key={item.name}>{item.name}</h4>
                   <div className="portfolio-wrap">
@@ -117,10 +118,15 @@ const Portfolio = () => {
                       alt={item.name}
                     />
 
-                    {/* <div className="portfolio-links portfolio-caption">
+                    <div className="portfolio-links portfolio-caption">
+                      <button
+                        className="btn btn-primary"
+                        data-index={item.key}
+                        onClick={toggleModal}
+                      ></button>
                       <h6>{item.description}</h6>
                       <div className="portfolio-lightbox"></div>
-                    </div> */}
+                    </div>
                   </div>
                 </div>
               ))}

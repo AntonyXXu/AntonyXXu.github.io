@@ -4,10 +4,12 @@ import { useSpring, animated } from "react-spring";
 const Modal = ({ showModal, setModal, toggleModal }) => {
   const enterScreen = useSpring({
     opacity: showModal ? 1 : 0,
-    zIndex: showModal ? 16 : -1,
+    transform: showModal ? "translateY(0%)" : "translateY(-150%)",
+    zIndex: showModal ? 16 : -5,
     config: {
       duration: 250,
     },
+    immediate: (key) => key === "zIndex",
   });
 
   useEffect(() => {
@@ -15,8 +17,7 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
       window.scrollTo(0, 0);
     }
   }, [showModal]);
-
-  //   if (!showModal) return null;
+  console.log(showModal);
   return (
     <div className="modal-wrapper modal-xl">
       <div className="modal-info">
@@ -52,7 +53,7 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
               Close
             </button>
           </div>
-        </animated.div>{" "}
+        </animated.div>
       </div>
     </div>
   );
