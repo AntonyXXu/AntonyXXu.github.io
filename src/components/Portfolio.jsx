@@ -17,7 +17,7 @@ const Portfolio = () => {
   }, [filter]);
   const filterPortfolio = (filter) => {
     setFilter(filter);
-    setModal(false);
+    setModal(0);
   };
 
   //Show Modal of portfolio details
@@ -26,7 +26,7 @@ const Portfolio = () => {
     if (!showModal) {
       setModal(e.target.getAttribute("data-index"));
     } else {
-      setModal(!showModal);
+      setModal(0);
     }
   };
 
@@ -126,9 +126,8 @@ const Portfolio = () => {
                         data-index={item.key}
                         onClick={toggleModal}
                       >
-                        View {item.name}
+                        View details about {item.name}
                       </button>
-                      {/* <h6>{item.description}</h6> */}
                     </div>
                   </div>
                 </div>

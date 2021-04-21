@@ -2,7 +2,9 @@ const Controls = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
-        <h4 className="modal-title">Details About ____</h4>
+        <h4 className="modal-title">
+          Removing Over $10M of risk through adjusting controls logic
+        </h4>
         <button
           type="button"
           className="close"

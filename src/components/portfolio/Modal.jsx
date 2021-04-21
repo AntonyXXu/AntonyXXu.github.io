@@ -9,6 +9,7 @@ import ResumeBuilder from "./DetailedDescription/ResumeBuilder";
 import TravelSite from "./DetailedDescription/TravelSite";
 import WindowsWallpapers from "./DetailedDescription/WindowsWallpapers";
 import YoutubeExtension from "./DetailedDescription/YoutubeExtension";
+import PersonalWebsite from "./DetailedDescription/PersonalWebsite";
 import { useSpring, animated } from "react-spring";
 
 const Modal = ({ showModal, setModal, toggleModal }) => {
@@ -28,15 +29,17 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
     }
   }, [showModal]);
 
-  const getExperience = () => {
+  function getExperience() {
     console.log(showModal);
     switch (showModal) {
       case 1:
+        console.log(showModal);
         return <TravelSite />;
       case 2:
         return <GhostRacer />;
       case 3:
         return <GhostRacer />;
+
       case 4:
         return <GhostRacer />;
       case 5:
@@ -52,36 +55,20 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
       case 10:
         return <GhostRacer />;
       default:
-        setModal(0);
-        break;
+        return;
     }
-  };
+  }
 
   return (
     <div className="modal-wrapper modal-xl">
       <div className="modal-info">
         <animated.div className="modal-content" style={enterScreen}>
           {/* modal info */}
-          <div className="modal-header">
-            <h4 className="modal-title">Details About ____</h4>
-            <button
-              type="button"
-              className="close"
-              data-dismiss="modal"
-              aria-label="Close"
-              onClick={toggleModal}
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div className="row">
-            <div className="col-lg-4">{/* Image */}</div>
-            <div className="col-lg-8">
-              <div className="modal-body">
-                <p>{/* Text */}</p>
-              </div>
-            </div>
-          </div>
+          {() => {
+            console.log("test");
+            return <GhostRacer />;
+          }}
+
           <div className="modal-footer">
             <button
               type="button"

@@ -1,8 +1,10 @@
-const TravelSite = ({ toggleModal }) => {
+const PersonalWebsite = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
-        <h4 className="modal-title">About my Travel Website</h4>
+        <h4 className="modal-title">
+          Building My Portfolio Website in React.js
+        </h4>
         <button
           type="button"
           className="close"
@@ -17,7 +19,7 @@ const TravelSite = ({ toggleModal }) => {
         <div className="col-lg-4">{/* Image */}</div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>{/* Text */}</p>
+            <p>aaaaa{/* Text */}</p>
           </div>
         </div>
       </div>
@@ -25,4 +27,4 @@ const TravelSite = ({ toggleModal }) => {
   );
 };
 
-export default TravelSite;
+export default PersonalWebsite;

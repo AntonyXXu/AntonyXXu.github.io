@@ -2,7 +2,7 @@ const GhostRacer = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
-        <h4 className="modal-title">Details About ____</h4>
+        <h4 className="modal-title">About my Game GhostRacer</h4>
         <button
           type="button"
           className="close"
