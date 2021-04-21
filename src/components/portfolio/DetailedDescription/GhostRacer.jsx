@@ -33,7 +33,6 @@ const GhostRacer = ({ toggleModal }) => {
             className="img-fluid "
             alt="Ghost Racer Game"
           />
-          <br></br>
         </div>
         <div className="col-lg-8">
           <div className="modal-body">
