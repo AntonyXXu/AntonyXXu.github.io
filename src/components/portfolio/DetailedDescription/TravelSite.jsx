@@ -42,7 +42,7 @@ const TravelSite = ({ toggleModal }) => {
                     Users can login/register, and 'purchase' various travel
                     packages. They can also view their previous packages they
                     have purchased. There are admin functionalities for admins
-                    who would like to create brand new packages
+                    who would like to create brand new packages.
                   </li>
                   <li>
                     <em> Travel Locations and Packages:</em> <br></br>
@@ -50,14 +50,17 @@ const TravelSite = ({ toggleModal }) => {
                     and view their respective travel packages (Users must be
                     logged in to purchase). Packages can be created as well to
                     add to or update the database. Outdated packages are
-                    filtered and no longer rendered
+                    filtered and no longer rendered. Users can add reviews to
+                    each location, and can delete their own reviews. Average
+                    ratings of the packages are tracked
                   </li>
                   <li>
                     <em> Database:</em> <br></br>
                     All pages are rendered based on the database data. The
                     database logs user history, package history, and purchase
                     history to allow for tracking of regularly purchased
-                    packages, and user preferences.
+                    packages, and user preferences. Review Schema is embedded
+                    within the packages Schema as a subdocument
                   </li>
                 </ul>
               </li>
