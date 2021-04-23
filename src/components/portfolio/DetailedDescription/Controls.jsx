@@ -65,7 +65,7 @@ const Controls = ({ toggleModal }) => {
                     Fuel Gas pressure was operated at 5psig due to operator
                     preference, and over time it was set as the norm. I
                     contacted fired heater specialists, and worked with them to
-                    understand the risks of reducing pressures. This lead us to
+                    understand the risks of reducing pressures. This led us to
                     realize we could reduce the operating fuel gas pressure. I
                     coordinated a team of instrumentation, mechanical engineers,
                     and controls engineers to perform a test without risking
