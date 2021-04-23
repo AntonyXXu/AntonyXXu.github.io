@@ -35,12 +35,11 @@ const CoolingTower = ({ toggleModal }) => {
                 <ul>
                   <li>
                     <strong>
-                      {" "}
                       Identifying the opportunity through analytics
                     </strong>
                     <br></br> While looking for cost savings opportunities with
                     maintenance, we identified cooling tower rentals were quite
-                    constly whenever they're done. Seeing that as a large
+                    costly whenever they're done. Seeing that as a large
                     opportunity, I decided to analyze historical weather trends
                     in parallel with cooling tower performance in JMP, SeeQ, and
                     Python. From the data trends, I concluded there was a
@@ -48,7 +47,7 @@ const CoolingTower = ({ toggleModal }) => {
                     ambient conditions.
                   </li>
                   <li>
-                    <strong> Designing and Implementing the System</strong>{" "}
+                    <strong> Designing and Implementing the System</strong>
                     <br></br>
                     Although I found there was potential to operate without the
                     rental towers during the Winter, it would be risky to
@@ -63,12 +62,12 @@ const CoolingTower = ({ toggleModal }) => {
                     resources, and oversaw the designed system's completion.
                   </li>
                   <li>
-                    <strong> Troubleshooting the bypass system</strong>{" "}
+                    <strong> Troubleshooting the bypass system</strong>
                     <br></br>
                     Unfortunately, the system did not work per design. Although
                     there were no temperature impacts, there were hydraulic
                     constraints in piping systems prohibiting the full
-                    maintenance of the lower section. As the person who lead the
+                    maintenance of the lower section. As the person who led the
                     system installation and have a good understanding of the
                     bypass, I took immediately initiative to understand the
                     constraints - the reason was likely due to blockages in
@@ -77,7 +76,7 @@ const CoolingTower = ({ toggleModal }) => {
                     accessing the pipe). Understanding the issue, I developed
                     various plans to bring the system back to normal including
                     installing additional pumps and adjusting level controls to
-                    alleviate hydraulic constraints. Finally through a
+                    alleviate hydraulic constraints. Finally, through a
                     combination of various back-up plans, we were able to
                     alleviate the hydraulic issues and allow for the entire
                     tower to be worked on
