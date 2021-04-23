@@ -60,9 +60,11 @@ const Portfolio = () => {
               various miscellaneous programming projects. From my past process
               engineering experience, I've utilized Python to analyze process
               data to identify multiple high-value opportunities, and lead teams
-              to improve process safety and improve business operations. Click
-              on the various boxes to view details. Software related projects
-              can be found on my Github.
+              to improve process safety and improve business operations.
+            </p>
+            <p>
+              Click on the various boxes to view details. Software related
+              projects can be found on my Github.
             </p>
 
             <div className="row">

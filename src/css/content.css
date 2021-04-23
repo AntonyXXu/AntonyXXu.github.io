@@ -143,7 +143,7 @@
   align-self: center;
   top: 110px;
   /* left: 300px; */
-  width: 90%;
+  width: 100%;
   height: 1px;
 }
 .modal-info {
@@ -220,16 +220,27 @@
     display: inline;
   }
 }
+@media (max-width: 1200px) {
+  .modal-wrapper {
+    max-width: 950px;
+  }
+}
 @media (max-width: 991px) {
   .info {
     padding: 2vw 5vw 2vw;
     text-align: justify;
   }
+  .modal-wrapper {
+    max-width: 720px;
+  }
 }
-@media (max-width: 769px) {
+@media (max-width: 767px) {
   .portfolio .portfolio-wrap .portfolio-links {
     top: 3vw;
     left: 3vw;
     right: 3vw;
+  }
+  .modal-wrapper {
+    max-width: 520px;
   }
 }
