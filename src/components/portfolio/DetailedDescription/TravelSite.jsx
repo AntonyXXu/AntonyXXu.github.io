@@ -38,14 +38,14 @@ const TravelSite = ({ toggleModal }) => {
                 <br></br>
                 <ul>
                   <li>
-                    <em>User Functionalities:</em> <br></br>
+                    <strong>User Functionalities:</strong> <br></br>
                     Users can login/register, and 'purchase' various travel
                     packages. They can also view their previous packages they
                     have purchased. There are admin functionalities for admins
                     who would like to create brand new packages.
                   </li>
                   <li>
-                    <em> Travel Locations and Packages:</em> <br></br>
+                    <strong> Travel Locations and Packages:</strong> <br></br>
                     Users can view filtered locations based on three continents,
                     and view their respective travel packages (Users must be
                     logged in to purchase). Packages can be created as well to
@@ -55,7 +55,7 @@ const TravelSite = ({ toggleModal }) => {
                     ratings of the packages are tracked
                   </li>
                   <li>
-                    <em> Database:</em> <br></br>
+                    <strong> Database:</strong> <br></br>
                     All pages are rendered based on the database data. The
                     database logs user history, package history, and purchase
                     history to allow for tracking of regularly purchased

@@ -51,20 +51,20 @@ const GhostRacer = ({ toggleModal }) => {
                 <br></br>
                 <ul>
                   <li>
-                    <em> Gameplay:</em> <br></br>
+                    <strong> Gameplay:</strong> <br></br>
                     Player is the red car, looking to contact spinning blue
                     souls to beat the level. Contacting smaller pedestrians or
                     losing all health will end the level. You can shoot holy
                     water to kill zombies and zombie cabs.
                   </li>
                   <li>
-                    <em> Actors (Objects) in the game:</em> <br></br>
+                    <strong> Actors (Objects) in the game:</strong> <br></br>
                     All actors are derived from an "Actors" base class. They are
                     rendered, and perform tasks through a virtual doSomething()
                     function that is called in the overall game world.
                   </li>
                   <li>
-                    <em> Game World: </em>
+                    <strong> Game World: </strong>
                     <br></br>
                     All Actors are kept track of in the world through various
                     lists, and are constructed/destructed in this class. In

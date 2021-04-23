@@ -54,14 +54,14 @@ const YoutubeExtension = ({ toggleModal }) => {
                 <br></br>
                 <ul>
                   <li>
-                    <em>HTML Elements </em> <br></br>
+                    <strong>HTML Elements </strong> <br></br>
                     The extension first checks the window location, before
                     executing the code to ensure the function is on the search
                     page. Then, it finds the search tabs and inserts a tab to
                     Youtube search.
                   </li>
                   <li>
-                    <em>Search Query</em> <br></br>
+                    <strong>Search Query</strong> <br></br>
                     The Google search query is extracted from the url, and is
                     added to the youtube Query.
                   </li>

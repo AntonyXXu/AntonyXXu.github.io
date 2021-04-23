@@ -51,7 +51,7 @@ const WindowsWallpapers = ({ toggleModal }) => {
                 <br></br>
                 <ul>
                   <li>
-                    <em> Changing Backgrounds</em> <br></br>
+                    <strong> Changing Backgrounds</strong> <br></br>
                     The program first checks the total number of monitors and
                     the resolution of the monitors with Ctypes. Then, it pulls
                     the correct orientation photos and creates a new image with
@@ -59,14 +59,14 @@ const WindowsWallpapers = ({ toggleModal }) => {
                     desktop background
                   </li>
                   <li>
-                    <em> Photo Management</em> <br></br>
+                    <strong> Photo Management</strong> <br></br>
                     The photos that are used for the slideshow are sorted into
                     horizontal and vertical orientations, reducing re-work of
                     identifying various orientations. The images are then
                     resized into the same resolution of each screen.
                   </li>
                   <li>
-                    <em> Automatic Detection of any Changes </em>
+                    <strong> Automatic Detection of any Changes </strong>
                     <br></br>
                     The program is set up to detect any changes in photo
                     directory (if any photos are added or removed), and if

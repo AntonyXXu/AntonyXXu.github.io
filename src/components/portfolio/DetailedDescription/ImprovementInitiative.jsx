@@ -40,24 +40,25 @@ const ImprovementInitiative = ({ toggleModal }) => {
                 <br></br>
                 <ul>
                   <li>
-                    <em> Environmental Testing:</em> <br></br>I worked with
-                    external specialists on our water treatment technologies.
-                    After coordinating operations timing, subject matter experts
-                    availability, and maintenance timing, I drafted a test plan
-                    with minimal operations risk to test the chemicals limits of
-                    the water system without impacting performance. From the
-                    testing, we adjusted operating parameters to reduce salt
-                    spending and wastewater chlorides by 40%.
+                    <strong> Environmental Testing:</strong> <br></br>I worked
+                    with external specialists on our water treatment
+                    technologies. After coordinating operations timing, subject
+                    matter experts availability, and maintenance timing, I
+                    drafted a test plan with minimal operations risk to test the
+                    chemicals limits of the water system without impacting
+                    performance. From the testing, we adjusted operating
+                    parameters to reduce salt spending and wastewater chlorides
+                    by 40%.
                   </li>
                   <li>
-                    <em> Chemicals Reduction:</em> <br></br>I worked with a
-                    distillation engineer to commission a project to change
-                    water routing to the process unit. This was not something
-                    that was done in 50 years of plant operations, and had
-                    caused constraints in chemical spending due to lost cooling
-                    water use and dilution of treatment chemicals. Through
-                    challenging historical operations and implementing new
-                    operating bands, we were able to reduce cooling water
+                    <strong> Chemicals Reduction:</strong> <br></br>I worked
+                    with a distillation engineer to commission a project to
+                    change water routing to the process unit. This was not
+                    something that was done in 50 years of plant operations, and
+                    had caused constraints in chemical spending due to lost
+                    cooling water use and dilution of treatment chemicals.
+                    Through challenging historical operations and implementing
+                    new operating bands, we were able to reduce cooling water
                     chemical spending by $150k/year
                   </li>
                 </ul>

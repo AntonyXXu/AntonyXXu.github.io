@@ -37,11 +37,11 @@ const Controls = ({ toggleModal }) => {
                 <br></br>
                 <ul>
                   <li>
-                    <em> Eliminate Trip Scenarios:</em> <br></br>In the end of
-                    2020, an Edmonton power disruption caused a utility boiler
-                    to trip. It was generally accepted by others the trip was
-                    due to insufficient air due to old blowers, something that
-                    can't be fixed without spending millions of dollars.
+                    <strong> Eliminate Trip Scenarios:</strong> <br></br>In the
+                    end of 2020, an Edmonton power disruption caused a utility
+                    boiler to trip. It was generally accepted by others the trip
+                    was due to insufficient air due to old blowers, something
+                    that can't be fixed without spending millions of dollars.
                     However, I analyzed the data from the recent trip and
                     historical power outages, and found primary cause root cause
                     was not poor equipment, but a redundant trip system. I
@@ -54,9 +54,9 @@ const Controls = ({ toggleModal }) => {
                     trips by over 50%.
                   </li>
                   <li>
-                    <em> Challenge Process Limits:</em> <br></br>Historically,
-                    Fuel Gas pressure was operated at 5psig due to operator
-                    preference, and over time it was set as the norm. I
+                    <strong> Challenge Process Limits:</strong> <br></br>
+                    Historically, Fuel Gas pressure was operated at 5psig due to
+                    operator preference, and over time it was set as the norm. I
                     contacted fired heater specialists, and worked with them to
                     understand the risks of reducing pressures. This led us to
                     realize we could reduce the operating fuel gas pressure. I
@@ -69,10 +69,10 @@ const Controls = ({ toggleModal }) => {
                     reduce trip risk.
                   </li>
                   <li>
-                    <em> Controls Logic:</em> <br></br> The last major finding I
-                    had was through analyzing other trip scenarios in boilers
-                    caused by linked process units. Using Python and SeeQ, I
-                    identified the other half of the trips were due to
+                    <strong> Controls Logic:</strong> <br></br> The last major
+                    finding I had was through analyzing other trip scenarios in
+                    boilers caused by linked process units. Using Python and
+                    SeeQ, I identified the other half of the trips were due to
                     insufficient firing due to controls restrictions from boiler
                     setup. Understanding the root cause, I collaborated with the
                     controls and fired heater engineer to brainstorm solutions.
