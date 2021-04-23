@@ -16,13 +16,6 @@ const Controls = ({ toggleModal }) => {
         </button>
       </div>
       <div className="row">
-        {/* <div className="col-lg-4 modal-img align-items-center justify-content-center">
-          <img
-            src="./assets/portfolio/strathcona_cogen.jpg"
-            className="img-fluid "
-            alt="refinery"
-          />
-        </div> */}
         <div className="col-lg-12">
           <div className="modal-body">
             <ul>
