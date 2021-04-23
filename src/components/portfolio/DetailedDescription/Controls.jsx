@@ -2,9 +2,9 @@ const Controls = ({ toggleModal }) => {
   return (
     <>
       <div className="modal-header">
-        <h5 className="modal-title">
+        <h4 className="modal-title">
           Eliminating Over $10M of Risk Through Adjusting Boiler Controls Logic
-        </h5>
+        </h4>
         <button
           type="button"
           className="close"
