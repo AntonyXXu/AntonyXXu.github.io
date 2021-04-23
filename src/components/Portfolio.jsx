@@ -55,9 +55,14 @@ const Portfolio = () => {
             <p>
               See below for some of my projects and experiences in detail! Feel
               free to filter by software related projects, work related
-              achivements, or leadership accomplishments. Click on the various
-              boxes to view details. Software related projects can be found on
-              my github.
+              achivements, and leadership accomplishments. I have created web
+              applications with React.js, and Node.js, created games in C++, and
+              various miscellaneous programming projects. From my past process
+              engineering experience, I've utilized Python to analyze process
+              data to identify multiple high-value opportunities, and lead teams
+              to improve process safety and improve business operations. Click
+              on the various boxes to view details. Software related projects
+              can be found on my Github.
             </p>
 
             <div className="row">
