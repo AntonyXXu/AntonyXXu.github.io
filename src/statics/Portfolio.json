@@ -32,13 +32,13 @@
   },
   {
     "key": 6,
-    "name": "Site Improvement Initiatives",
+    "name": "Refinery Process Improvements",
     "category": ["all", "leadership"],
     "imglnk": "./assets/portfolio/upgrader.jpg"
   },
   {
     "key": 7,
-    "name": "Controls Vulnerability",
+    "name": "Controls Risk Elimination",
     "category": ["all", "analysis"],
     "imglnk": "./assets/portfolio/boiler.jpg"
   },
