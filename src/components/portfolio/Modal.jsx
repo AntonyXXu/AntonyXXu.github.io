@@ -16,19 +16,13 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
   const enterScreen = useSpring({
     opacity: showModal ? 1 : 0,
     transform: showModal ? "translateY(0%)" : "translateY(-150%)",
+    scaleY: showModal ? "1" : "0.0000001",
     zIndex: showModal ? 16 : -5,
     config: {
       duration: 250,
     },
     immediate: (key) => key === "zIndex",
   });
-
-  // const reference = useRef();
-  // const closeWhenOutside = (e) => {
-  //   if (!reference.current.contains(e.target)) {
-  //     setModal(0);
-  //   }
-  // };
 
   useEffect(() => {
     if (showModal) {
@@ -66,24 +60,22 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
   };
 
   return (
-    <div className="modal-background">
-      <div className="modal-wrapper modal-xl">
-        <div className="modal-info" id="modal">
-          <animated.div className="modal-content" style={enterScreen}>
-            <GetExperience />
-            <div className="modal-footer">
-              <button
-                type="button"
-                className="btn btn-secondary"
-                data-dismiss="modal"
-                onClick={toggleModal}
-              >
-                Close
-              </button>
-            </div>
-          </animated.div>
+    <div className="modal-wrapper modal-xl">
+      <animated.div className="modal-info" id="modal" style={enterScreen}>
+        <div className="modal-content">
+          <GetExperience />
+          <div className="modal-footer">
+            <button
+              type="button"
+              className="btn btn-secondary"
+              data-dismiss="modal"
+              onClick={toggleModal}
+            >
+              Close
+            </button>
+          </div>
         </div>
-      </div>
+      </animated.div>
     </div>
   );
 };
