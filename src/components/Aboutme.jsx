@@ -88,10 +88,11 @@ const Aboutme = () => {
                                 Web development including personal website and a
                                 travel website
                               </li>
-                              <li>Windows multi-monitor background scroller</li>
                               <li>
-                                Resume builder from Google Sheets and CSV data
+                                Driving game implementing object oriented
+                                programming
                               </li>
+                              <li>Windows multi-monitor background scroller</li>
                             </ul>
                           </li>
                           <li>
