@@ -57,7 +57,7 @@ const ResumeBuilder = ({ toggleModal }) => {
                 </ul>
               </li>
               <li>
-                <strong>Link:</strong>
+                <strong>Link: </strong>
                 <a
                   href="https://github.com/AntonyXXu/ResumeBuilder_GoogleAPI/"
                   target="_blank"

@@ -12,7 +12,7 @@ import YoutubeExtension from "./DetailedDescription/YoutubeExtension";
 import PersonalSite from "./DetailedDescription/PersonalSite";
 import { useSpring, animated } from "react-spring";
 
-const Modal = ({ showModal, setModal, toggleModal }) => {
+const Modal = ({ showModal, toggleModal }) => {
   const enterScreen = useSpring({
     opacity: showModal ? 1 : 0,
     transform: showModal ? "translateY(0%)" : "translateY(-150%)",

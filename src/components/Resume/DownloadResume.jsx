@@ -1,7 +1,7 @@
 const DownloadResume = () => {
   const downloadResume = () => {
     window.location.href =
-      "https://github.com/AntonyXXu/Windows_Wallpaper_Slideshow/files/6266052/AntonyXuResume.pdf";
+      "(https://github.com/AntonyXXu/AntonyXXu.github.io/files/6369028/Resume.-.Antony.Xu.-.software.pdf)";
   };
   return (
     <div className="container">

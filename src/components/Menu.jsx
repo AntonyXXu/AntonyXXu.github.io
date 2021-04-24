@@ -57,17 +57,16 @@ const Menu = () => {
                 activeClassName="active"
                 onClick={setFalse}
               >
-                <icons.Home className="menu-logo" />{" "}
+                <icons.Home className="menu-logo" />
                 <span className="menu-text">Home</span>
               </NavLink>
             </li>
             <li>
               <NavLink to="/about" activeClassName="active" onClick={setFalse}>
-                <icons.About className="menu-logo" />{" "}
+                <icons.About className="menu-logo" />
                 <span className="menu-text">About Me</span>
               </NavLink>
             </li>
-            {/* Currently working on portfolio page */}
             <li>
               <NavLink
                 to="/portfolio"
@@ -80,7 +79,7 @@ const Menu = () => {
             </li>
             <li>
               <NavLink to="/resume" activeClassName="active" onClick={setFalse}>
-                <icons.Resume className="menu-logo" />{" "}
+                <icons.Resume className="menu-logo" />
                 <span className="menu-text">Resume</span>
               </NavLink>
             </li>
@@ -90,7 +89,7 @@ const Menu = () => {
                 activeClassName="active"
                 onClick={setFalse}
               >
-                <icons.Email className="menu-logo" />{" "}
+                <icons.Email className="menu-logo" />
                 <span className="menu-text"> Contact</span>
               </NavLink>
             </li>
