@@ -15,13 +15,20 @@ import { useSpring, animated } from "react-spring";
 const Modal = ({ showModal, setModal, toggleModal }) => {
   const enterScreen = useSpring({
     opacity: showModal ? 1 : 0,
-    transform: showModal ? "translateY(0%)" : "translateY(-100%)",
+    transform: showModal ? "translateY(0%)" : "translateY(-150%)",
     zIndex: showModal ? 16 : -5,
     config: {
       duration: 250,
     },
     immediate: (key) => key === "zIndex",
   });
+
+  // const reference = useRef();
+  // const closeWhenOutside = (e) => {
+  //   if (!reference.current.contains(e.target)) {
+  //     setModal(0);
+  //   }
+  // };
 
   useEffect(() => {
     if (showModal) {
@@ -61,7 +68,7 @@ const Modal = ({ showModal, setModal, toggleModal }) => {
   return (
     <div className="modal-background">
       <div className="modal-wrapper modal-xl">
-        <div className="modal-info">
+        <div className="modal-info" id="modal">
           <animated.div className="modal-content" style={enterScreen}>
             <GetExperience />
             <div className="modal-footer">

@@ -44,6 +44,31 @@ const Portfolio = () => {
     return () => document.removeEventListener("keydown", keyPress);
   }, [keyPress]);
 
+  //Close modal if I click outside the modal
+  const closeWhenOutside = useCallback(
+    (e) => {
+      const target = document.getElementById("modal");
+      if (!target.contains(e.target) && showModal) {
+        setModal(0);
+      }
+    },
+    [setModal, showModal]
+  );
+
+  useEffect(() => {
+    document.addEventListener("mouseup", closeWhenOutside);
+    return () => document.removeEventListener("mouseup", closeWhenOutside);
+  }, [closeWhenOutside]);
+
+  // useEffect(() => {
+  //   const closeWhenOutside = (e) => {
+  //     const target = document.getElementById("modal");
+  //     if (!target.contains(e.target)) {
+  //       setModal(0);
+  //     }
+  //   };
+  // });
+
   return (
     <Wrapper>
       <main id="main">

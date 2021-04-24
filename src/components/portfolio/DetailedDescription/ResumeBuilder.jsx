@@ -30,7 +30,9 @@ const ResumeBuilder = ({ toggleModal }) => {
                 Used Python with Google Sheets, Drive, and Docs API to build an
                 application that pulls Sheets data to compile into various
                 Google Docs files. Purpose was to create simple to read resumes
-                in a Docs format from Google Forms submissions.
+                in a Docs format from Google Forms submissions. I created this
+                to help a friend out, who wanted to screen gaming group
+                applications in a resume format.
               </li>
               <li>
                 <strong>Functionalities</strong>
