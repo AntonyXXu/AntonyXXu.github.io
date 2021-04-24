@@ -7,6 +7,7 @@ const Skills = () => {
         <li className="list-group-item skill rounded-pill">C++</li>
         <li className="list-group-item skill rounded-pill">Javascript</li>
         <li className="list-group-item skill rounded-pill">C#</li>
+        <li className="list-group-item skill rounded-pill">SQL</li>
         <li className="list-group-item skill rounded-pill">HTML</li>
         <li className="list-group-item skill rounded-pill">CSS</li>
       </ul>
@@ -17,7 +18,6 @@ const Skills = () => {
         <li className="list-group-item skill rounded-pill">Node.js</li>
         <li className="list-group-item skill rounded-pill">Express</li>
         <li className="list-group-item skill rounded-pill">REST</li>
-        <li className="list-group-item skill rounded-pill">SQL</li>
         <li className="list-group-item skill rounded-pill">MongoDB</li>
       </ul>
       <h4>Data Analysis</h4>
