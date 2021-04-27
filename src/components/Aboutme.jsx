@@ -90,7 +90,8 @@ const Aboutme = () => {
                               </li>
                               <li>
                                 Driving game implementing object oriented
-                                programming
+                                programming and text editor implementing stacks
+                                and trees.
                               </li>
                               <li>Windows multi-monitor background scroller</li>
                             </ul>
