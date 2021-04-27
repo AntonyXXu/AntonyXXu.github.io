@@ -18,9 +18,9 @@ const Experience = () => {
             </li>
             <li>
               Utilizing various UCLA and Waterloo resources for data structures
-              &amp; algorithms, operating systems, and processes. Currently
-              working on UCLA C++ project to create a text editor implementing
-              various data structures
+              &amp; algorithms, operating systems, and processes. Created a game
+              implementing OOP, and a text editor with self-built tries for
+              spell check
             </li>
           </ul>
         </div>

@@ -3,6 +3,7 @@ import Controls from "./DetailedDescription/Controls";
 import CoolingTower from "./DetailedDescription/CoolingTower";
 import ImprovementInitiative from "./DetailedDescription/ImprovementInitiative";
 import GhostRacer from "./DetailedDescription/GhostRacer";
+import TextEditor from "./DetailedDescription/TextEditor";
 import ProcessModel from "./DetailedDescription/ProcessModel";
 import ProductionAnalysis from "./DetailedDescription/ProductionAnalysis";
 import ResumeBuilder from "./DetailedDescription/ResumeBuilder";
@@ -39,9 +40,9 @@ const Modal = ({ showModal, toggleModal }) => {
       case "3":
         return <PersonalSite toggleModal={toggleModal} />;
       case "4":
-        return <WindowsWallpapers toggleModal={toggleModal} />;
+        return <TextEditor toggleModal={toggleModal} />;
       case "5":
-        return <YoutubeExtension toggleModal={toggleModal} />;
+        return <WindowsWallpapers toggleModal={toggleModal} />;
       case "6":
         return <ImprovementInitiative toggleModal={toggleModal} />;
       case "7":
@@ -51,9 +52,12 @@ const Modal = ({ showModal, toggleModal }) => {
       case "9":
         return <CoolingTower toggleModal={toggleModal} />;
       case "10":
-        return <ResumeBuilder toggleModal={toggleModal} />;
-      case "11":
         return <ProcessModel toggleModal={toggleModal} />;
+      case "11":
+        return <YoutubeExtension toggleModal={toggleModal} />;
+      case "12":
+        return <ResumeBuilder toggleModal={toggleModal} />;
+
       default:
         return null;
     }

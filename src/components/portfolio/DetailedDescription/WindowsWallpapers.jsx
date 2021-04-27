@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const WindowsWallpapers = ({ toggleModal }) => {
-  const [gif, updategif] = useState(false);
+  const [gif, updategif] = useState(true);
   const setgif = () => updategif(!gif);
   return (
     <>

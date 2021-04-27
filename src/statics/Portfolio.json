@@ -11,7 +11,6 @@
     "category": ["all", "programming"],
     "imglnk": "./assets/portfolio/ghostracer.jpg"
   },
-
   {
     "key": 3,
     "name": "Personal Website",
@@ -20,15 +19,15 @@
   },
   {
     "key": 4,
-    "name": "Windows Wallpapers",
+    "name": "Wurd Text Editor",
     "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/windowswallpaper.jpg"
+    "imglnk": "./assets/portfolio/wurd.jpg"
   },
   {
     "key": 5,
-    "name": "Youtube Search Extension",
-    "category": ["all", "Programming"],
-    "imglnk": "./assets/portfolio/youtube_extension.jpg"
+    "name": "Windows Wallpapers",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/windowswallpaper.jpg"
   },
   {
     "key": 6,
@@ -56,14 +55,20 @@
   },
   {
     "key": 10,
-    "name": "Resume Builder",
-    "category": ["all", "programming"],
-    "imglnk": "./assets/portfolio/resume_builder.jpg"
-  },
-  {
-    "key": 11,
     "name": "Process Model Compilation",
     "category": ["all", "programming"],
     "imglnk": "./assets/portfolio/coker.jpg"
+  },
+  {
+    "key": 11,
+    "name": "Youtube Search Extension",
+    "category": ["all", "Programming"],
+    "imglnk": "./assets/portfolio/youtube_extension.jpg"
+  },
+  {
+    "key": 12,
+    "name": "Resume Builder",
+    "category": ["all", "programming"],
+    "imglnk": "./assets/portfolio/resume_builder.jpg"
   }
 ]
