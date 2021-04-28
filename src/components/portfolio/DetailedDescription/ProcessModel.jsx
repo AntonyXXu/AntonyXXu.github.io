@@ -47,7 +47,11 @@ const ProcessModel = ({ toggleModal }) => {
                     <strong> Program Details:</strong> <br></br>
                     As the model result files are slightly different for each
                     coker, I created a generalized program to pull some common
-                    data, then customized each individual
+                    data, then customized each specific program to gather the
+                    data based on text file set up using keys for the locations
+                    of the relevant data in the files. Then, after pulling the
+                    data, I wrote the results into a common csv file to allow
+                    for analysis.
                   </li>
                   <li>
                     <strong> Analysis Results:</strong> <br></br>
