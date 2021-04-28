@@ -3,7 +3,7 @@ const ProductionAnalysis = ({ toggleModal }) => {
     <>
       <div className="modal-header">
         <h4 className="modal-title">
-          Identifying a $50M/y vulnerability through Data (in progress)
+          Identifying a $50M/y vulnerability with Data Analytics
         </h4>
         <button
           type="button"
@@ -16,16 +16,42 @@ const ProductionAnalysis = ({ toggleModal }) => {
         </button>
       </div>
       <div className="row">
-        <div className="col-lg-4">{/* Image */}</div>
+        <div className="col-lg-4 modal-img align-items-center justify-content-center">
+          <img
+            src="./assets/portfolio/.jpg"
+            className="img-fluid "
+            alt="refinery"
+          />
+        </div>
         <div className="col-lg-8">
           <div className="modal-body">
-            <p>
-              Production Model Analysis I was responsible for model validation
-              and analysis for mine operations. Following debugging and
-              verification using Python, I built a tool to analyze millions of
-              data points, ultimately identifying a single point of failure in
-              the proposed project that would have costed over $50MM/year.
-            </p>
+            <ul>
+              <li>
+                <strong>Background:</strong>
+                <br></br>
+                At Horizon Mine, there was an initiative to change the movement
+                of oil sands to the processing plant from haul trucks to
+                conveyor belts due to increasing distances of the mine
+                locations. I was responsible for validating an ARENA production
+                model, debugging it, and updating logic so it would accurately
+                predict conveyor operations. Using a combination of Tableau and
+                Python, I was able to identify a single point of failure in the
+                proposed project that would have shut down plant operations for
+                multiple weeks in a year
+              </li>
+              <li>
+                <strong>Actions:</strong>
+                <br></br>
+                <ul>
+                  <li>
+                    <strong> Model Verification:</strong> <br></br>
+                  </li>
+                  <li>
+                    <strong> Analysis Results:</strong> <br></br>
+                  </li>
+                </ul>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

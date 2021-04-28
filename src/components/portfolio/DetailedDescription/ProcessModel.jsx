@@ -20,7 +20,7 @@ const ProcessModel = ({ toggleModal }) => {
           <img
             src="./assets/portfolio/coker_modal.jpg"
             className="img-fluid "
-            alt="refinery"
+            alt="Fluid Coker"
           />
         </div>
         <div className="col-lg-8">
