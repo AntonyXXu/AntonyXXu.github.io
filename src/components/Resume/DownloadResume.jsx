@@ -1,7 +1,6 @@
 const DownloadResume = () => {
   const downloadResume = () => {
-    window.location.href =
-      "(https://github.com/AntonyXXu/AntonyXXu.github.io/files/6369028/Resume.-.Antony.Xu.-.software.pdf)";
+    window.open("./assets/Resume/Resume - Antony Xu.pdf", "_blank");
   };
   return (
     <div className="container">
