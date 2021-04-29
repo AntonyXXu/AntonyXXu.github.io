@@ -38,7 +38,7 @@
   {
     "key": 7,
     "name": "Controls Risk Elimination",
-    "category": ["all", "analysis"],
+    "category": ["all", "analysis", "leadership"],
     "imglnk": "./assets/portfolio/boiler.jpg"
   },
   {
@@ -50,13 +50,13 @@
   {
     "key": 9,
     "name": "Cooling Tower Initiative",
-    "category": ["all", "leadership"],
+    "category": ["all", "leadership", "analysis"],
     "imglnk": "./assets/portfolio/coolingtower.jpg"
   },
   {
     "key": 10,
     "name": "Process Model Compilation",
-    "category": ["all", "programming"],
+    "category": ["all", "programming", "analysis"],
     "imglnk": "./assets/portfolio/coker.jpg"
   },
   {
