@@ -1,6 +1,9 @@
 const DownloadResume = () => {
   const downloadResume = () => {
-    window.open("./assets/Resume/Resume - Antony Xu.pdf", "_blank");
+    window.open(
+      "http://github.com/AntonyXXu/AntonyXXu.github.io/files/6395920/Resume.-.Antony.Xu.pdf",
+      "_blank"
+    );
   };
   return (
     <div className="container">
