@@ -25,6 +25,15 @@
       // Otherwise, leave pathSegmentsToKeep as 0.
       var pathSegmentsToKeep = 0;
 
+      if (
+        window.location.href ==
+          "https://github.com/AntonyXXu/AntonyXXu.github.io/files/6395920/Resume.-.Antony.Xu.pdf" ||
+        window.location.href ==
+          "http://github.com/AntonyXXu/AntonyXXu.github.io/files/6395920/Resume.-.Antony.Xu.pdf"
+      ) {
+        return;
+      }
+
       var l = window.location;
       l.replace(
         l.protocol +
