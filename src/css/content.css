@@ -141,7 +141,7 @@
   overflow: visible;
   z-index: 15;
   align-self: center;
-  top: 110px;
+  top: 50px;
   width: 1300px;
 }
 .modal-info {
@@ -149,8 +149,8 @@
   align-items: center;
   overflow: visible;
   z-index: 16;
-  left: 5%;
-  width: 90%;
+  left: 3%;
+  width: 94%;
   max-height: 100%;
   justify-content: center;
 }

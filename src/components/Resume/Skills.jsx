@@ -14,10 +14,10 @@ const Skills = () => {
       <h4>Web Applications</h4>
       <ul className="list-group list-group-horizontal">
         <li className="list-group-item skill rounded-pill">React.js</li>
-        <li className="list-group-item skill rounded-pill">Pug/Jade</li>
         <li className="list-group-item skill rounded-pill">Node.js</li>
         <li className="list-group-item skill rounded-pill">Express</li>
         <li className="list-group-item skill rounded-pill">REST</li>
+        <li className="list-group-item skill rounded-pill">Pug/Jade</li>
         <li className="list-group-item skill rounded-pill">MongoDB</li>
       </ul>
       <h4>Data Analysis</h4>

@@ -16,14 +16,14 @@ const ProductionAnalysis = ({ toggleModal }) => {
         </button>
       </div>
       <div className="row">
-        <div className="col-lg-5 modal-img align-items-center justify-content-center">
+        <div className="col-lg-4 modal-img align-items-center justify-content-center">
           <img
             src="./assets/portfolio/production_details.jpg"
             className="img-fluid "
             alt="refinery"
           />
         </div>
-        <div className="col-lg-7">
+        <div className="col-lg-8">
           <div className="modal-body">
             <ul>
               <li>
