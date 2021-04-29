@@ -16,14 +16,14 @@ const ProductionAnalysis = ({ toggleModal }) => {
         </button>
       </div>
       <div className="row">
-        <div className="col-lg-4 modal-img align-items-center justify-content-center">
+        <div className="col-lg-5 modal-img align-items-center justify-content-center">
           <img
-            src="./assets/portfolio/.jpg"
+            src="./assets/portfolio/production_details.jpg"
             className="img-fluid "
             alt="refinery"
           />
         </div>
-        <div className="col-lg-8">
+        <div className="col-lg-7">
           <div className="modal-body">
             <ul>
               <li>
@@ -45,9 +45,29 @@ const ProductionAnalysis = ({ toggleModal }) => {
                 <ul>
                   <li>
                     <strong> Model Verification:</strong> <br></br>
+                    To validate the ARENA model, I initially created a program
+                    to run the model 100 iterations at a time (based on
+                    reliability metrics), and used Python Pandas to work with
+                    the millions of data points outputted from the model.
+                    Comparing the results with live data and other validated
+                    models, I had identified various small bugs within the new
+                    model and proposed ways to resolve the issues.
                   </li>
                   <li>
                     <strong> Analysis Results:</strong> <br></br>
+                    After I validated the results, I used the previous program
+                    to run the model for over 1000 iterations with each
+                    reliability metric to analyze the production risks and the
+                    statistical significance. Through this analysis, I was able
+                    to identify a critical component of the production conveying
+                    system is a single point of failure, and if there was any
+                    maintenance going on during a failure then the mine
+                    production would end up shutting down for up to a week at a
+                    time. With these findings, I worked with reliability and
+                    mechanical to identify a solution for the project to change
+                    up the supplemental conveyor setup, and justified the
+                    necessity for a spare crusher system to ensure reliable
+                    operations
                   </li>
                 </ul>
               </li>
