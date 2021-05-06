@@ -15,6 +15,7 @@ const Portfolio = () => {
     }));
     setProjects(final);
   }, [filter]);
+
   const filterPortfolio = (filter) => {
     setFilter(filter);
     setModal(0);
