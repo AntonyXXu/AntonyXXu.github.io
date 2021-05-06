@@ -62,7 +62,7 @@
   {
     "key": 11,
     "name": "Youtube Search Extension",
-    "category": ["all", "Programming"],
+    "category": ["all", "programming"],
     "imglnk": "./assets/portfolio/youtube_extension.jpg"
   },
   {
