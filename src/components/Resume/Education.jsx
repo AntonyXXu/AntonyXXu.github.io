@@ -8,7 +8,8 @@ const Education = () => {
           </h4>
           <ul>
             <li>
-              <strong>GPA:</strong> <span>3.8/4.0</span>
+              <strong>GPA: </strong>
+              <span>3.8/4.0</span>
             </li>
           </ul>
         </div>
@@ -16,9 +17,9 @@ const Education = () => {
       <h4>TechCareers Software Development, SAIT</h4>
       <ul>
         <li>
-          <strong>Technologies:</strong>
+          <strong>Technologies: </strong>
           <span>
-            Python, JavaScript, Node.js, SQL, T-SQL, MongoDB, C#, ASP, .NET, AWS
+            Python, JavaScript, C#, Node.js, SQL, MongoDB, ASP, .NET, AWS, Agile
           </span>
         </li>
       </ul>
