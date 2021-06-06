@@ -9,7 +9,7 @@ const Skills = () => {
         <li className="list-group-item skill rounded-pill">C#</li>
         <li className="list-group-item skill rounded-pill">SQL</li>
         <li className="list-group-item skill rounded-pill">HTML</li>
-        <li className="list-group-item skill rounded-pill">CSS</li>
+        <li className="list-group-item skill rounded-pill">CSS/SASS</li>
       </ul>
       <h4>Web Applications</h4>
       <ul className="list-group list-group-horizontal">
