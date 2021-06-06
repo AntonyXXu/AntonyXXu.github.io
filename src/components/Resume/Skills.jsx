@@ -1,6 +1,6 @@
 const Skills = () => {
   return (
-    <>
+    <div className="col-lg-12">
       <h4>Languages</h4>
       <ul className="list-group list-group-horizontal">
         <li className="list-group-item skill rounded-pill">Python</li>
@@ -19,6 +19,7 @@ const Skills = () => {
         <li className="list-group-item skill rounded-pill">REST</li>
         <li className="list-group-item skill rounded-pill">Pug/Jade</li>
         <li className="list-group-item skill rounded-pill">MongoDB</li>
+        <li className="list-group-item skill rounded-pill">AWS</li>
       </ul>
       <h4>Data Analysis</h4>
       <ul className="list-group list-group-horizontal">
@@ -29,7 +30,7 @@ const Skills = () => {
         <li className="list-group-item skill rounded-pill">Tableau</li>
         <li className="list-group-item skill rounded-pill">JMP</li>
       </ul>
-    </>
+    </div>
   );
 };
 

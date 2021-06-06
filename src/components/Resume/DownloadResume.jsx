@@ -8,7 +8,7 @@ const DownloadResume = () => {
   return (
     <div className="container">
       <div className="row justify-content-md-center">
-        <div className="col-lg-12 justify-content-center" data-aos="fade-right">
+        <div className="col-lg-12 justify-content-center">
           <div className="text-center download">
             <button
               className="btn btn-outline-primary btn-lg "

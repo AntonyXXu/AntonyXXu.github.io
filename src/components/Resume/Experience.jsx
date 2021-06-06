@@ -1,12 +1,11 @@
 const Experience = () => {
   return (
     <>
-      <div className="col-lg-12" data-aos="fade-up" data-aos-delay="100">
+      <div className="col-lg-12">
         <div className="resume-item">
           <h4>Software Development Intern</h4>
-          <h4 className="resumeDate">2021 - Present</h4>
           <h5>Critical Mass</h5>
-
+          <h5 className="resumeDate"> 2021 - Present</h5>
           <ul>
             <li>
               Reduced client and data provider setup times from over 5 days to
@@ -35,7 +34,7 @@ const Experience = () => {
         <div className="resume-item">
           <h4>Process Contact and Optimization Engineer</h4>
           <h5>Imperial Oil</h5>
-          <h5>2018 - 2020</h5>
+          <h5 className="resumeDate"> 2018 - 2020</h5>
           <ul>
             <li>
               Oversaw Strathcona refinery utility operations and helped manage
@@ -73,8 +72,8 @@ const Experience = () => {
         </div>
         <div className="resume-item">
           <h4>Production and Optimization Co-op Engineer</h4>
-          <h5>Canadian Natural Resources Ltd</h5>
-          <h5>2017</h5>
+          <h5>Canadian Natural Resources</h5>
+          <h5 className="resumeDate"> 2017 - 2017</h5>
           <ul>
             <li>
               Modelled and created robust Tableau and Python analysis tools to
@@ -99,7 +98,7 @@ const Experience = () => {
         <div className="resume-item">
           <h4>Quality Co-op Engineer</h4>
           <h5>ERCO WorldWide</h5>
-          <h5>2016</h5>
+          <h5 className="resumeDate"> 2016 - 2016</h5>
           <ul>
             <li>Analyzed and monitored process parameters in the plant</li>
             <li>
@@ -119,7 +118,8 @@ const Experience = () => {
         <div className="resume-item">
           <h4>Process Operator</h4>
           <h5>Teck Resources</h5>
-          <h5>2015</h5>
+          <h5 className="resumeDate"> 2015 - 2015</h5>
+
           <ul>
             <li>
               Constructed, commissioned, operated and decommissioned
@@ -138,7 +138,7 @@ const Experience = () => {
         <div className="resume-item">
           <h4>Process Engineering Intern</h4>
           <h5>Jacobs Engineering</h5>
-          <h5>2014</h5>
+          <h5 className="resumeDate"> 2014 - 2014</h5>
           <ul>
             <li>
               Wrote procedures for processing RFI and Squad Check documents
