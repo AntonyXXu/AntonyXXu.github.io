@@ -3,30 +3,39 @@ const Experience = () => {
     <>
       <div className="col-lg-12" data-aos="fade-up" data-aos-delay="100">
         <div className="resume-item">
-          <h4>Software Development Student</h4>
-          <h5>SAIT, 2021 - Present</h5>
+          <h4>Software Development Intern</h4>
+          <h4 className="resumeDate">2021 - Present</h4>
+          <h5>Critical Mass</h5>
+
           <ul>
             <li>
-              Currently learning cloud computing, web design, database
-              structures, and software projects
-              <ul>
-                <li>
-                  Created Travel Website with RESTful API backend to create and
-                  update MongoDB database
-                </li>
-              </ul>
+              Reduced client and data provider setup times from over 5 days to
+              less than 2 hours.
             </li>
             <li>
-              Utilizing various UCLA and Waterloo resources for data structures
-              &amp; algorithms, operating systems, and processes. Created a game
-              implementing OOP, and a text editor with self-built tries for
-              spell check
+              Designed data pipelines and data processing backend, implemeting
+              standardized request function to access customized information
+              from Google, Facebook, Twitter, Linkedin, and Adobe API.
+            </li>
+            <li>
+              Deployed configuration, pipeline, and data provider services with
+              Lambdas, Step Functions, S3, SQS, and SNS on AWS
+            </li>
+            <li>
+              Created detailed backend unit testing and validation protocols,
+              ensuring that accurate requests are made to internal / external
+              API and successful response data is transformed to correct format.
+            </li>
+            <li>
+              Actively participated in daily scrum meetings and presented
+              project features in internal and client demonstrations.
             </li>
           </ul>
         </div>
         <div className="resume-item">
           <h4>Process Contact and Optimization Engineer</h4>
-          <h5>Imperial Oil, 2018 - 2020</h5>
+          <h5>Imperial Oil</h5>
+          <h5>2018 - 2020</h5>
           <ul>
             <li>
               Oversaw Strathcona refinery utility operations and helped manage
@@ -64,7 +73,8 @@ const Experience = () => {
         </div>
         <div className="resume-item">
           <h4>Production and Optimization Co-op Engineer</h4>
-          <h5>Canadian Natural Resources Ltd, 2017</h5>
+          <h5>Canadian Natural Resources Ltd</h5>
+          <h5>2017</h5>
           <ul>
             <li>
               Modelled and created robust Tableau and Python analysis tools to
@@ -88,7 +98,8 @@ const Experience = () => {
         </div>
         <div className="resume-item">
           <h4>Quality Co-op Engineer</h4>
-          <h5>ERCO WorldWide, 2016</h5>
+          <h5>ERCO WorldWide</h5>
+          <h5>2016</h5>
           <ul>
             <li>Analyzed and monitored process parameters in the plant</li>
             <li>
@@ -107,7 +118,8 @@ const Experience = () => {
         </div>
         <div className="resume-item">
           <h4>Process Operator</h4>
-          <h5>Teck Resources, 2015</h5>
+          <h5>Teck Resources</h5>
+          <h5>2015</h5>
           <ul>
             <li>
               Constructed, commissioned, operated and decommissioned
@@ -125,7 +137,8 @@ const Experience = () => {
         </div>
         <div className="resume-item">
           <h4>Process Engineering Intern</h4>
-          <h5>Jacobs Engineering, 2014</h5>
+          <h5>Jacobs Engineering</h5>
+          <h5>2014</h5>
           <ul>
             <li>
               Wrote procedures for processing RFI and Squad Check documents
