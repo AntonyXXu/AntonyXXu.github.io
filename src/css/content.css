@@ -165,6 +165,10 @@
   padding-left: 0px;
 }
 /* Resume */
+.resume h2 {
+  z-index: 10;
+}
+
 .download {
   margin-bottom: 20px;
 }
@@ -208,6 +212,10 @@
 
 .exp {
   transform-origin: top;
+}
+
+.resumeDate {
+  float: right;
 }
 /* Contact */
 

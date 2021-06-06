@@ -36,7 +36,7 @@ const Resume = () => {
     opacity: collapse["experience"] ? 1 : 0,
     maxHeight: collapse["experience"] ? "10000px" : "0px",
     scaleY: collapse["experience"] ? "1" : "0.00001",
-    config: { duration: 500 },
+    config: { duration: 300 },
   });
 
   return (
